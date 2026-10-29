@@ -1,0 +1,186 @@
+#!/usr/bin/env python3
+"""The honesty gate, in code.
+
+For every record it fetches the source_url, records the HTTP status, the
+content hash and the date, and only then may a record become `verified`.
+A record whose source is unreachable, non-https, or an unofficial host is
+reported and left alone - never silently promoted.
+
+Usage:
+    python3 verify.py --all
+    python3 verify.py --country PH
+    python3 verify.py --all --dry-run
+"""
+
+from __future__ import annotations
+
+import argparse
+import datetime as dt
+import hashlib
+import json
+import sys
+import time
+import urllib.error
+import urllib.request
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from ofdata.model import RecordError
+from ofdata.store import DATA_DIR, load_all, load_country, save_country
+
+STATE = Path(__file__).resolve().parent / "state" / "verified.json"
+UA = "OfficialFee-verifier/1.0 (+https://officialfee.example/about)"
+TIMEOUT = 25
+
+
+def _fetch_once(url, timeout):
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            body = resp.read(200_000)
+            return resp.status, hashlib.sha256(body).hexdigest(), len(body)
+    except urllib.error.HTTPError as exc:
+        return exc.code, None, 0
+    except Exception:  # DNS, TLS, timeout - all the same verdict: unproven
+        return 0, None, 0
+
+
+def fetch(url, timeout=TIMEOUT, retries=2):
+    """Fetch a source URL and return (status, sha256, bytes). Never raises for HTTP.
+
+    Retries a non-2xx a couple of times before believing it. Official sites
+    rate-limit, and a transient 429 would otherwise be recorded as a broken
+    source, which would hide a page that is in fact fine.
+    """
+    for attempt in range(retries + 1):
+        status, digest, size = _fetch_once(url, timeout)
+        if 200 <= status < 300 or attempt == retries:
+            return status, digest, size
+        time.sleep(1.5 * (attempt + 1))
+    return status, digest, size
+
+
+def load_state():
+    if STATE.exists():
+        return json.loads(STATE.read_text(encoding="utf-8"))
+    return {}
+
+
+def save_state(state):
+    STATE.parent.mkdir(parents=True, exist_ok=True)
+    STATE.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+
+def verify_record(record, state, today, dry_run=False):
+    status, digest, size = (0, None, 0) if dry_run else fetch(record.source_url)
+    ok = 200 <= status < 300
+    previous = state.get(record.slug, {})
+    changed = bool(digest and previous.get("hash") and previous["hash"] != digest)
+
+    result = {
+        "slug": record.slug,
+        "source_url": record.source_url,
+        "checked_on": today.isoformat(),
+        "http_status": status,
+        "hash": digest,
+        "bytes": size,
+        "ok": ok,
+        "changed": changed,
+        "official_host": record.is_official_source(),
+    }
+    if not dry_run:
+        state[record.slug] = result
+    return result
+
+
+def apply_verdict(record, result, today):
+    """Promote to verified only when the evidence actually supports it.
+
+    A changed source is the dangerous case: the page may now say a different
+    number, so refreshing the date would claim a check we did not do. Flag it
+    for a human instead and leave the old date in place.
+    """
+    if not result["ok"]:
+        return False, f"source unreachable (HTTP {result['http_status']})"
+    if result["changed"]:
+        record.review_required = True
+        return False, "source content changed - needs human review"
+    record.verified_on = today.isoformat()
+    record.status = "verified"
+    record.review_required = False
+    record.checked_by = "mixed" if record.checked_by != "human" else "human"
+    return True, "verified"
+
+
+def main(argv=None):
+    ap = argparse.ArgumentParser(description="Verify fee sources and stamp the dataset.")
+    ap.add_argument("--all", action="store_true", help="verify every country file")
+    ap.add_argument("--country", help="ISO-3166 alpha-2, e.g. PH")
+    ap.add_argument("--dry-run", action="store_true", help="do not fetch or write anything")
+    ap.add_argument("--max-age", type=int, default=90, help="days a stamp stays fresh")
+    ap.add_argument("--ack", metavar="SLUG", action="append", default=[],
+                    help="clear review_required for a slug after a human re-read the source")
+    args = ap.parse_args(argv)
+
+    if not args.all and not args.country and not args.ack:
+        ap.error("pass --all, --country XX or --ack SLUG")
+
+    today = dt.date.today()
+    state = load_state()
+
+    if args.ack:
+        everything = load_all()
+        touched = set()
+        for slug in args.ack:
+            record = everything.get(slug)
+            if record is None:
+                print(f"unknown slug: {slug}", file=sys.stderr)
+                return 2
+            record.review_required = False
+            record.verified_on = today.isoformat()
+            record.status = "verified"
+            touched.add(record.country)
+        for country in touched:
+            save_country(country, [r for r in everything.values() if r.country == country])
+        print(f"acknowledged {len(args.ack)} record(s); a human re-read their sources")
+        return 0
+
+    if args.all:
+        records = list(load_all().values())
+        by_country = {}
+        for r in records:
+            by_country.setdefault(r.country, []).append(r)
+    else:
+        records = load_country(args.country)
+        by_country = {args.country.upper(): records}
+
+    if not records:
+        print("no records found", file=sys.stderr)
+        return 2
+
+    promoted = stale = failed = 0
+    for record in records:
+        result = verify_record(record, state, today, args.dry_run)
+        ok, why = (False, "dry-run") if args.dry_run else apply_verdict(record, result, today)
+        if ok:
+            promoted += 1
+            print(f"  ok    {record.slug:<34} {record.source_url}")
+        else:
+            failed += 1
+            age = record.age_days(today)
+            if age is not None and age > args.max_age:
+                stale += 1
+            print(f"  FAIL  {record.slug:<34} {why}", file=sys.stderr)
+
+    if not args.dry_run:
+        for country, group in by_country.items():
+            save_country(country, group)
+        save_state(state)
+
+    print(f"\nverified {promoted}, failed {failed} (of which stale-by-age {stale})")
+    return 0 if failed == 0 else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

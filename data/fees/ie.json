@@ -1,0 +1,38 @@
+[
+  {
+    "country": "IE",
+    "country_name": "Ireland",
+    "slug": "ireland-visa-fee",
+    "category": "visa",
+    "title": "Ireland visa fee (2026)",
+    "fees": [
+      {
+        "name": "Single entry visa",
+        "amount": 60,
+        "currency": "EUR",
+        "notes": ""
+      },
+      {
+        "name": "Multiple entry visa",
+        "amount": 100,
+        "currency": "EUR",
+        "notes": ""
+      },
+      {
+        "name": "Transit visa",
+        "amount": 25,
+        "currency": "EUR",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/",
+    "source_name": "Irish Immigration Service Delivery - Preclearance and entry visa fees",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "An administration fee that is not refunded if the visa is refused.",
+    "extra_sources": []
+  }
+]

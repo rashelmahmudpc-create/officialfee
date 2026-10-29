@@ -1,0 +1,408 @@
+{
+  "https://evisa.xuatnhapcanh.gov.vn": {
+    "bytes": 0,
+    "fee_like_hits": [],
+    "http_status": 403,
+    "last_probe": "2026-10-29",
+    "url": "https://evisa.xuatnhapcanh.gov.vn",
+    "verdict": "unreachable"
+  },
+  "https://immi.homeaffairs.gov.au/visas/getting-a-visa/fees-and-charges/current-visa-pricing": {
+    "bytes": 0,
+    "fee_like_hits": [],
+    "http_status": 403,
+    "last_probe": "2026-10-29",
+    "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/fees-and-charges/current-visa-pricing",
+    "verdict": "unreachable"
+  },
+  "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500": {
+    "bytes": 0,
+    "fee_like_hits": [],
+    "http_status": 403,
+    "last_probe": "2026-10-29",
+    "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+    "verdict": "unreachable"
+  },
+  "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas": {
+    "bytes": 0,
+    "fee_like_hits": [],
+    "http_status": 403,
+    "last_probe": "2026-10-29",
+    "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas",
+    "verdict": "unreachable"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/fees.html": {
+    "bytes": 0,
+    "fee_like_hits": [],
+    "http_status": 404,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/fees.html",
+    "verdict": "unreachable"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/fees/study-permit.html": {
+    "bytes": 0,
+    "fee_like_hits": [],
+    "http_status": 404,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/fees/study-permit.html",
+    "verdict": "unreachable"
+  },
+  "https://www.gdrfad.gov.ae/en": {
+    "bytes": 253891,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.gdrfad.gov.ae/en",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.gov.uk/apply-citizenship-indefinite-leave-to-remain": {
+    "bytes": 94212,
+    "fee_like_hits": [
+      "\u00a31,709",
+      "\u00a31,839",
+      "\u00a3130"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.gov.uk/apply-citizenship-indefinite-leave-to-remain",
+    "verdict": "candidate"
+  },
+  "https://www.gov.uk/apply-first-adult-passport": {
+    "bytes": 86700,
+    "fee_like_hits": [
+      "\u00a3102",
+      "\u00a3115"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.gov.uk/apply-first-adult-passport",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.gov.uk/government/publications/immigration-health-surcharge": {
+    "bytes": 0,
+    "fee_like_hits": [],
+    "http_status": 404,
+    "last_probe": "2026-10-29",
+    "url": "https://www.gov.uk/government/publications/immigration-health-surcharge",
+    "verdict": "unreachable"
+  },
+  "https://www.gov.uk/government/publications/passport-fees": {
+    "bytes": 67780,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.gov.uk/government/publications/passport-fees",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.gov.uk/government/publications/visa-regulations-revised-table/home-office-immigration-and-nationality-fees-8-october-2026": {
+    "bytes": 194962,
+    "fee_like_hits": [
+      "\u00a31,000",
+      "\u00a31,027",
+      "\u00a31,071",
+      "\u00a31,128",
+      "\u00a31,140",
+      "\u00a31,172",
+      "\u00a31,235",
+      "\u00a31,357",
+      "\u00a31,407",
+      "\u00a31,500",
+      "\u00a31,540",
+      "\u00a31,579"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.gov.uk/government/publications/visa-regulations-revised-table/home-office-immigration-and-nationality-fees-8-october-2026",
+    "verdict": "candidate"
+  },
+  "https://www.gov.uk/graduate-visa": {
+    "bytes": 105608,
+    "fee_like_hits": [
+      "\u00a31,035",
+      "\u00a3937"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.gov.uk/graduate-visa",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.gov.uk/healthcare-immigration-application/how-much-pay": {
+    "bytes": 72861,
+    "fee_like_hits": [
+      "\u00a31,035",
+      "\u00a31,552",
+      "\u00a33,105",
+      "\u00a3388",
+      "\u00a3517",
+      "\u00a3776"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.gov.uk/healthcare-immigration-application/how-much-pay",
+    "verdict": "candidate"
+  },
+  "https://www.gov.uk/register-as-british-citizen": {
+    "bytes": 0,
+    "fee_like_hits": [],
+    "http_status": 404,
+    "last_probe": "2026-10-29",
+    "url": "https://www.gov.uk/register-as-british-citizen",
+    "verdict": "unreachable"
+  },
+  "https://www.gov.uk/renew-adult-passport": {
+    "bytes": 78264,
+    "fee_like_hits": [
+      "\u00a3102",
+      "\u00a3115"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.gov.uk/renew-adult-passport",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.gov.uk/skilled-worker-visa": {
+    "bytes": 178502,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.gov.uk/skilled-worker-visa",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.gov.uk/standard-visitor-visa": {
+    "bytes": 150619,
+    "fee_like_hits": [
+      "\u00a3135",
+      "\u00a374"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.gov.uk/standard-visitor-visa",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.gov.uk/student-visa": {
+    "bytes": 148347,
+    "fee_like_hits": [
+      "\u00a3558"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.gov.uk/student-visa",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.gov.uk/uk-family-visa": {
+    "bytes": 149044,
+    "fee_like_hits": [
+      "\u00a31,000",
+      "\u00a31,407",
+      "\u00a31,940",
+      "\u00a32,064",
+      "\u00a32,328",
+      "\u00a32,587",
+      "\u00a33,105",
+      "\u00a33,635",
+      "\u00a33,880",
+      "\u00a3452",
+      "\u00a35,175"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.gov.uk/uk-family-visa",
+    "verdict": "candidate"
+  },
+  "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements": {
+    "bytes": 37256,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.imi.gov.my": {
+    "bytes": 149946,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.imi.gov.my",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/": {
+    "bytes": 400000,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.malaysiavisa.com.my": {
+    "bytes": 395269,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.malaysiavisa.com.my",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.moi.gov.kw": {
+    "bytes": 0,
+    "fee_like_hits": [],
+    "http_status": 403,
+    "last_probe": "2026-10-29",
+    "url": "https://www.moi.gov.kw",
+    "verdict": "unreachable"
+  },
+  "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility": {
+    "bytes": 101767,
+    "fee_like_hits": [
+      "$10,000",
+      "$10,005",
+      "$10,018",
+      "$10,205",
+      "$10,236",
+      "$10,250",
+      "$10,273",
+      "$10,468",
+      "$10,482",
+      "$10,500",
+      "$10,527",
+      "$10,700"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility",
+    "verdict": "candidate"
+  },
+  "https://www.uscis.gov/i-129": {
+    "bytes": 109971,
+    "fee_like_hits": [
+      "$100,000"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/i-129",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/i-130": {
+    "bytes": 114810,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/i-130",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/i-131": {
+    "bytes": 111343,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/i-131",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/i-140": {
+    "bytes": 95881,
+    "fee_like_hits": [
+      "$600"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/i-140",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/i-485": {
+    "bytes": 109328,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/i-485",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/i-539": {
+    "bytes": 100515,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/i-539",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/i-601": {
+    "bytes": 92949,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/i-601",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/i-751": {
+    "bytes": 101185,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/i-751",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/i-765": {
+    "bytes": 120642,
+    "fee_like_hits": [
+      "$85"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/i-765",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/i-824": {
+    "bytes": 85262,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/i-824",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/i-90": {
+    "bytes": 94765,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/i-90",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/n-400": {
+    "bytes": 118602,
+    "fee_like_hits": [
+      "$380",
+      "$710",
+      "$760"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/n-400",
+    "verdict": "candidate"
+  },
+  "https://www.uscis.gov/n-565": {
+    "bytes": 91933,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/n-565",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/n-600": {
+    "bytes": 97581,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/n-600",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf": {
+    "bytes": 249002,
+    "fee_like_hits": [
+      "$11",
+      "$36",
+      "$8,",
+      "$85"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+    "verdict": "candidate"
+  }
+}

@@ -1,0 +1,29 @@
+2026-10-29T03:48:33Z  === loop start: 0.001h, cycle budget 0m ===
+2026-10-29T03:48:35Z  === loop start: 0.002h, cycle budget 0m ===
+2026-10-29T03:48:35Z  --- cycle 1 ---
+2026-10-29T03:48:48Z  probe:   reachable-no-fees  200  0 hits  https://www.gdrfad.gov.ae/en   unreachable        403  0 hits  https://www.moi.gov.kw   unreachable        403  0 hits  https://evisa.xuatnhapcanh.gov.vn 
+2026-10-29T03:49:00Z  extract: queued 96 candidate rows for review in state/extracted.json
+2026-10-29T03:49:02Z  verify: verified 15, failed 7 (of which stale-by-age 0)
+2026-10-29T03:49:02Z  WARNING: some sources failed verification this cycle - see above
+2026-10-29T03:49:02Z  build: built 15 indexable pages, 7 hidden (draft or stale)
+2026-10-29T03:49:02Z  tests: ok
+2026-10-29T03:49:02Z  queue: queue: 16 urls, probed: 16, pending: 0
+2026-10-29T03:49:02Z  === loop end after 1 cycles ===
+2026-10-29T03:49:16Z  === loop start: 0.0005h, cycle budget 0m ===
+2026-10-29T03:49:16Z  --- cycle 1 ---
+2026-10-29T03:49:16Z  probe: queue empty - nothing new to probe 
+2026-10-29T03:49:31Z  extract: queued 96 candidate rows for review in state/extracted.json
+2026-10-29T03:49:38Z  verify: verified 22, failed 0 (of which stale-by-age 0)
+2026-10-29T03:49:38Z  build: built 22 indexable pages, 0 hidden (draft or stale)
+2026-10-29T03:49:38Z  tests: ok
+2026-10-29T03:49:38Z  queue: queue: 16 urls, probed: 16, pending: 0
+2026-10-29T03:49:38Z  === loop end after 1 cycles ===
+2026-10-29T03:52:26Z  === loop start: 0.001h, cycle budget 0m ===
+2026-10-29T03:52:26Z  --- cycle 1 ---
+2026-10-29T03:52:37Z  probe:   unreachable        404  0 hits  https://www.canada.ca/en/immigration-refugees-citizenship/services/application/fees.html   unreachable        404  0 hits  https://www.canada.ca/en/immigration-refugees-citizenship/services/application/fees/study-permit.html   reachable-no-fees  200  0 hits  https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements 
+2026-10-29T03:52:58Z  extract: queued 96 candidate rows for review in state/extracted.json
+2026-10-29T03:53:06Z  verify: verified 22, failed 0 (of which stale-by-age 0)
+2026-10-29T03:53:06Z  build: built 22 indexable pages, 0 hidden (draft or stale)
+2026-10-29T03:53:06Z  tests: ok
+2026-10-29T03:53:06Z  queue: queue: 38 urls, probed: 41, pending: 0
+2026-10-29T03:53:06Z  === loop end after 1 cycles ===

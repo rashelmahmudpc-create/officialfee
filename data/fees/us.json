@@ -1,0 +1,404 @@
+[
+  {
+    "country": "US",
+    "country_name": "United States",
+    "slug": "us-i-130-petition-fee",
+    "category": "immigration",
+    "title": "USCIS I-130 petition fee (2026)",
+    "fees": [
+      {
+        "name": "Form I-130, Petition for Alien Relative - paper filing",
+        "amount": 675,
+        "currency": "USD",
+        "notes": ""
+      },
+      {
+        "name": "Form I-130 - online filing",
+        "amount": 625,
+        "currency": "USD",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+    "source_name": "USCIS Form G-1055 Fee Schedule, edition 10/26/26",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "",
+    "extra_sources": []
+  },
+  {
+    "country": "US",
+    "country_name": "United States",
+    "slug": "us-i-140-petition-fee",
+    "category": "immigration",
+    "title": "USCIS I-140 petition fee (2026)",
+    "fees": [
+      {
+        "name": "Form I-140, Immigrant Petition for Alien Workers - paper filing",
+        "amount": 715,
+        "currency": "USD",
+        "notes": ""
+      },
+      {
+        "name": "Form I-140 - online filing",
+        "amount": 665,
+        "currency": "USD",
+        "notes": ""
+      },
+      {
+        "name": "Asylum Program Fee (full, additional)",
+        "amount": 600,
+        "currency": "USD",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+    "source_name": "USCIS Form G-1055 Fee Schedule, edition 10/26/26",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "The Asylum Program Fee is an additional fee, not waivable, paid alongside the filing fee.",
+    "extra_sources": []
+  },
+  {
+    "country": "US",
+    "country_name": "United States",
+    "slug": "us-i-485-adjustment-fee",
+    "category": "immigration",
+    "title": "USCIS I-485 adjustment of status fee (2026)",
+    "fees": [
+      {
+        "name": "Form I-485, applicant over 14 - paper filing",
+        "amount": 1440,
+        "currency": "USD",
+        "notes": ""
+      },
+      {
+        "name": "Form I-485, applicant over 14 - online filing",
+        "amount": 1390,
+        "currency": "USD",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+    "source_name": "USCIS Form G-1055 Fee Schedule, edition 10/26/26",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "",
+    "extra_sources": []
+  },
+  {
+    "country": "US",
+    "country_name": "United States",
+    "slug": "us-n-400-naturalization-fee",
+    "category": "immigration",
+    "title": "USCIS N-400 naturalization fee (2026)",
+    "fees": [
+      {
+        "name": "Form N-400, Application for Naturalization - paper filing",
+        "amount": 760,
+        "currency": "USD",
+        "notes": ""
+      },
+      {
+        "name": "Form N-400 - online filing",
+        "amount": 710,
+        "currency": "USD",
+        "notes": ""
+      },
+      {
+        "name": "Form N-400 - reduced fee (low income)",
+        "amount": 380,
+        "currency": "USD",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+    "source_name": "USCIS Form G-1055 Fee Schedule, edition 10/26/26",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "You cannot file online if you are requesting a fee waiver or the reduced fee.",
+    "extra_sources": []
+  },
+  {
+    "country": "US",
+    "country_name": "United States",
+    "slug": "us-i-90-green-card-renewal-fee",
+    "category": "immigration",
+    "title": "USCIS I-90 green card renewal fee (2026)",
+    "fees": [
+      {
+        "name": "Form I-90, Application to Replace Permanent Resident Card - paper filing",
+        "amount": 465,
+        "currency": "USD",
+        "notes": ""
+      },
+      {
+        "name": "Form I-90 - online filing",
+        "amount": 415,
+        "currency": "USD",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+    "source_name": "USCIS Form G-1055 Fee Schedule, edition 10/26/26",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "",
+    "extra_sources": []
+  },
+  {
+    "country": "US",
+    "country_name": "United States",
+    "slug": "us-i-751-remove-conditions-fee",
+    "category": "immigration",
+    "title": "USCIS I-751 fee (2026)",
+    "fees": [
+      {
+        "name": "Form I-751, Petition to Remove Conditions on Residence - paper filing",
+        "amount": 750,
+        "currency": "USD",
+        "notes": ""
+      },
+      {
+        "name": "Form I-751 - online filing",
+        "amount": 700,
+        "currency": "USD",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+    "source_name": "USCIS Form G-1055 Fee Schedule, edition 10/26/26",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "",
+    "extra_sources": []
+  },
+  {
+    "country": "US",
+    "country_name": "United States",
+    "slug": "us-i-539-extend-status-fee",
+    "category": "immigration",
+    "title": "USCIS I-539 extend or change status fee (2026)",
+    "fees": [
+      {
+        "name": "Form I-539, Application to Extend/Change Nonimmigrant Status - paper filing",
+        "amount": 470,
+        "currency": "USD",
+        "notes": ""
+      },
+      {
+        "name": "Form I-539 - online filing",
+        "amount": 420,
+        "currency": "USD",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+    "source_name": "USCIS Form G-1055 Fee Schedule, edition 10/26/26",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "",
+    "extra_sources": []
+  },
+  {
+    "country": "US",
+    "country_name": "United States",
+    "slug": "us-immigrant-visa-fee",
+    "category": "visa",
+    "title": "USCIS Immigrant Fee (green card production) (2026)",
+    "fees": [
+      {
+        "name": "USCIS Immigrant Fee, lawful permanent resident processing",
+        "amount": 235,
+        "currency": "USD",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+    "source_name": "USCIS Form G-1055 Fee Schedule, edition 10/26/26",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "Waived for certain groups, including Iraqi and Afghan special immigrants and K nonimmigrants.",
+    "extra_sources": []
+  },
+  {
+    "country": "US",
+    "country_name": "United States",
+    "slug": "us-i-129-petition-fee",
+    "category": "immigration",
+    "title": "USCIS I-129 petition for a nonimmigrant worker fee (2026)",
+    "fees": [
+      {
+        "name": "Form I-129, E-1/E-2/E-2C/E-3 or TN - paper filing",
+        "amount": 1015,
+        "currency": "USD",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+    "source_name": "USCIS Form G-1055 Fee Schedule, edition 10/26/26",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "Additional fees may apply depending on the classification requested.",
+    "extra_sources": []
+  },
+  {
+    "country": "US",
+    "country_name": "United States",
+    "slug": "us-i-131-reentry-permit-fee",
+    "category": "immigration",
+    "title": "USCIS I-131 reentry permit fee (2026)",
+    "fees": [
+      {
+        "name": "Form I-131, Reentry Permit - paper filing",
+        "amount": 630,
+        "currency": "USD",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+    "source_name": "USCIS Form G-1055 Fee Schedule, edition 10/26/26",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "Not eligible for a fee waiver request.",
+    "extra_sources": []
+  },
+  {
+    "country": "US",
+    "country_name": "United States",
+    "slug": "us-n-600-certificate-of-citizenship-fee",
+    "category": "immigration",
+    "title": "USCIS N-600 certificate of citizenship fee (2026)",
+    "fees": [
+      {
+        "name": "Form N-600, Application for Certificate of Citizenship - paper filing",
+        "amount": 1385,
+        "currency": "USD",
+        "notes": ""
+      },
+      {
+        "name": "Form N-600 - online filing",
+        "amount": 1335,
+        "currency": "USD",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+    "source_name": "USCIS Form G-1055 Fee Schedule, edition 10/26/26",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "",
+    "extra_sources": []
+  },
+  {
+    "country": "US",
+    "country_name": "United States",
+    "slug": "us-n-565-replacement-document-fee",
+    "category": "immigration",
+    "title": "USCIS N-565 replacement citizenship document fee (2026)",
+    "fees": [
+      {
+        "name": "Form N-565, Application for Replacement Naturalization/Citizenship Document - paper",
+        "amount": 555,
+        "currency": "USD",
+        "notes": ""
+      },
+      {
+        "name": "Form N-565 - online filing",
+        "amount": 505,
+        "currency": "USD",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+    "source_name": "USCIS Form G-1055 Fee Schedule, edition 10/26/26",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "",
+    "extra_sources": []
+  },
+  {
+    "country": "US",
+    "country_name": "United States",
+    "slug": "us-i-601-inadmissibility-waiver-fee",
+    "category": "immigration",
+    "title": "USCIS I-601 waiver of inadmissibility fee (2026)",
+    "fees": [
+      {
+        "name": "Form I-601, Application for Waiver of Grounds of Inadmissibility",
+        "amount": 1050,
+        "currency": "USD",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+    "source_name": "USCIS Form G-1055 Fee Schedule, edition 10/26/26",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "Some applicants, such as Special Immigrant Juveniles, are exempt.",
+    "extra_sources": []
+  },
+  {
+    "country": "US",
+    "country_name": "United States",
+    "slug": "us-i-824-action-on-approved-petition-fee",
+    "category": "immigration",
+    "title": "USCIS I-824 fee (2026)",
+    "fees": [
+      {
+        "name": "Form I-824, Application for Action on an Approved Application or Petition",
+        "amount": 590,
+        "currency": "USD",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+    "source_name": "USCIS Form G-1055 Fee Schedule, edition 10/26/26",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "",
+    "extra_sources": []
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "country": "GB",
+    "country_name": "United Kingdom",
+    "slug": "uk-standard-visitor-visa-fee",
+    "category": "visa",
+    "title": "UK Standard Visitor visa fee (2026)",
+    "fees": [
+      {
+        "name": "Standard Visitor visa - up to 6 months",
+        "amount": 135,
+        "currency": "GBP",
+        "notes": ""
+      },
+      {
+        "name": "Long-term visit visa - up to 2 years",
+        "amount": 506,
+        "currency": "GBP",
+        "notes": ""
+      },
+      {
+        "name": "Long-term visit visa - up to 5 years",
+        "amount": 903,
+        "currency": "GBP",
+        "notes": ""
+      },
+      {
+        "name": "Long-term visit visa - up to 10 years",
+        "amount": 1128,
+        "currency": "GBP",
+        "notes": ""
+      },
+      {
+        "name": "Visitor in Transit visa",
+        "amount": 74.5,
+        "currency": "GBP",
+        "notes": ""
+      },
+      {
+        "name": "Electronic Travel Authorisation (ETA)",
+        "amount": 20,
+        "currency": "GBP",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.gov.uk/government/publications/visa-regulations-revised-table/home-office-immigration-and-nationality-fees-8-october-2026",
+    "source_name": "GOV.UK - Home Office immigration and nationality fees, effective 8 October 2026",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "Read from the Home Office fees table that took effect on 8 October 2026.",
+    "extra_sources": []
+  },
+  {
+    "country": "GB",
+    "country_name": "United Kingdom",
+    "slug": "uk-student-visa-fee",
+    "category": "visa",
+    "title": "UK Student visa fee (2026)",
+    "fees": [
+      {
+        "name": "Student visa - apply from outside the UK",
+        "amount": 558,
+        "currency": "GBP",
+        "notes": ""
+      },
+      {
+        "name": "Student visa - extend or switch inside the UK",
+        "amount": 558,
+        "currency": "GBP",
+        "notes": ""
+      },
+      {
+        "name": "Child Student visa",
+        "amount": 558,
+        "currency": "GBP",
+        "notes": ""
+      },
+      {
+        "name": "Short-term student (English language, over 6 and up to 11 months)",
+        "amount": 228,
+        "currency": "GBP",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.gov.uk/government/publications/visa-regulations-revised-table/home-office-immigration-and-nationality-fees-8-october-2026",
+    "source_name": "GOV.UK - Home Office immigration and nationality fees, effective 8 October 2026",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "",
+    "extra_sources": []
+  },
+  {
+    "country": "GB",
+    "country_name": "United Kingdom",
+    "slug": "uk-skilled-worker-visa-fee",
+    "category": "visa",
+    "title": "UK Skilled Worker visa fee (2026)",
+    "fees": [
+      {
+        "name": "Skilled Worker - certificate of sponsorship for 3 years or less",
+        "amount": 819,
+        "currency": "GBP",
+        "notes": ""
+      },
+      {
+        "name": "Skilled Worker - certificate of sponsorship over 3 years",
+        "amount": 1618,
+        "currency": "GBP",
+        "notes": ""
+      },
+      {
+        "name": "Skilled Worker - Health and Care Visa, 3 years or less",
+        "amount": 324,
+        "currency": "GBP",
+        "notes": ""
+      },
+      {
+        "name": "Skilled Worker - Health and Care Visa, over 3 years",
+        "amount": 628,
+        "currency": "GBP",
+        "notes": ""
+      },
+      {
+        "name": "Certificate of Sponsorship (CoS)",
+        "amount": 525,
+        "currency": "GBP",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.gov.uk/government/publications/visa-regulations-revised-table/home-office-immigration-and-nationality-fees-8-october-2026",
+    "source_name": "GOV.UK - Home Office immigration and nationality fees, effective 8 October 2026",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "Figures shown are the in-country (inside the UK) application fees from the same table.",
+    "extra_sources": []
+  },
+  {
+    "country": "GB",
+    "country_name": "United Kingdom",
+    "slug": "uk-graduate-visa-fee",
+    "category": "visa",
+    "title": "UK Graduate visa fee (2026)",
+    "fees": [
+      {
+        "name": "Graduate Route - main applicant and dependants",
+        "amount": 937,
+        "currency": "GBP",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.gov.uk/graduate-visa",
+    "source_name": "GOV.UK - Graduate visa",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "",
+    "extra_sources": []
+  },
+  {
+    "country": "GB",
+    "country_name": "United Kingdom",
+    "slug": "uk-family-visa-fee",
+    "category": "visa",
+    "title": "UK family visa fees (2026)",
+    "fees": [
+      {
+        "name": "Joining partner, parent or child - from outside the UK",
+        "amount": 2064,
+        "currency": "GBP",
+        "notes": ""
+      },
+      {
+        "name": "Joining partner, parent or child - from inside the UK",
+        "amount": 1407,
+        "currency": "GBP",
+        "notes": ""
+      },
+      {
+        "name": "Other dependant relative - from outside the UK",
+        "amount": 3635,
+        "currency": "GBP",
+        "notes": ""
+      },
+      {
+        "name": "Indefinite leave to remain - main applicant and dependants",
+        "amount": 3226,
+        "currency": "GBP",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.gov.uk/uk-family-visa",
+    "source_name": "GOV.UK - Family visas",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "",
+    "extra_sources": []
+  },
+  {
+    "country": "GB",
+    "country_name": "United Kingdom",
+    "slug": "uk-immigration-health-surcharge",
+    "category": "surcharge",
+    "title": "UK Immigration Health Surcharge (2026)",
+    "fees": [
+      {
+        "name": "Students, dependants and Youth Mobility - per year",
+        "amount": 776,
+        "currency": "GBP",
+        "notes": ""
+      },
+      {
+        "name": "All other visa and immigration applications - per year",
+        "amount": 1035,
+        "currency": "GBP",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.gov.uk/healthcare-immigration-application/how-much-pay",
+    "source_name": "GOV.UK - Pay for UK healthcare as part of your immigration application",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "",
+    "extra_sources": []
+  },
+  {
+    "country": "GB",
+    "country_name": "United Kingdom",
+    "slug": "uk-passport-fee",
+    "category": "passport",
+    "title": "UK passport fee (2026)",
+    "fees": [
+      {
+        "name": "Adult passport - online application",
+        "amount": 102,
+        "currency": "GBP",
+        "notes": ""
+      },
+      {
+        "name": "Adult passport - paper form",
+        "amount": 115.5,
+        "currency": "GBP",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.gov.uk/apply-first-adult-passport",
+    "source_name": "GOV.UK - Apply for your first adult passport",
+    "source_type": "official",
+    "verified_on": "2026-10-29",
+    "status": "verified",
+    "checked_by": "mixed",
+    "review_required": false,
+    "notes": "",
+    "extra_sources": []
+  }
+]
