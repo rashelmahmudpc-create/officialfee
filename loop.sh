@@ -13,12 +13,23 @@ cd "$(dirname "$0")"
 
 # One loop at a time: two would double the request rate against the same hosts
 # and trip their rate limits, which then looks like broken sources.
-LOCK=".loop.lock"
-exec 9>"$LOCK"
-if ! flock -n 9; then
-  echo "another loop is already running (lock: $LOCK)" >&2
-  exit 1
+#
+# This is a pidfile, not flock, on purpose. Children inherit open file
+# descriptors, so a slow helper that outlives the loop keeps holding an flock and
+# the next run refuses to start forever. A pidfile plus a liveness check has no
+# such inheritance problem.
+PIDFILE="state/loop.pid"
+if [ -f "$PIDFILE" ]; then
+  OLD_PID=$(cat "$PIDFILE" 2>/dev/null || echo "")
+  if [ -n "$OLD_PID" ] && kill -0 "$OLD_PID" 2>/dev/null \
+     && grep -qa "loop.sh" "/proc/$OLD_PID/cmdline" 2>/dev/null; then
+    echo "another loop is already running (pid $OLD_PID)" >&2
+    exit 1
+  fi
+  echo "clearing stale pidfile (pid ${OLD_PID:-?} is gone)" >&2
 fi
+echo $$ > "$PIDFILE"
+trap 'rm -f "$PIDFILE"' EXIT
 
 HOURS="${1:-10}"
 BUDGET_MIN="${BUDGET_MIN:-20}"
