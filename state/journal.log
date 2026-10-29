@@ -34,3 +34,14 @@
 2026-10-29T03:53:59Z  --- cycle 1 ---
 2026-10-29T03:54:04Z  discover: added 60 new candidate URLs
 2026-10-29T03:55:05Z  probe:   reachable-no-fees  200  1 hits  https://www.canada.ca/en/patented-medicine-prices-review/corporate/transparency/quarterly-financial-reports/september-2025.html   reachable-no-fees  200  1 hits  https://www.canada.ca/en/patented-medicine-prices-review/corporate/transparency/quarterly-financial-reports/december-2025.html   reachable-no-fees  200  2 hits  https://www.canada.ca/en/patented-medicine-prices-review/corporate/transparency/quarterly-financial-reports/june-2026.html 
+2026-10-29T03:56:37Z  === loop start: 10h, cycle budget 20m ===
+2026-10-29T03:56:37Z  --- cycle 1 ---
+2026-10-29T03:57:04Z  discover: added 58 new candidate URLs
+2026-10-29T03:57:07Z  probe:   reachable-no-fees  200  0 hits  https://www.uscis.gov/i-131   reachable-no-fees  200  1 hits  https://www.uscis.gov/i-129   reachable-no-fees  200  0 hits  https://www.uscis.gov/i-824 
+2026-10-29T03:59:14Z  extract: queued 179 candidate rows for review in state/extracted.json
+2026-10-29T03:59:24Z  verify: verified 15, failed 7 (of which stale-by-age 0)
+2026-10-29T03:59:24Z  WARNING: some sources failed verification this cycle - see above
+2026-10-29T03:59:24Z  build: built 15 indexable pages, 7 hidden (draft or stale)
+2026-10-29T03:59:24Z  tests: ok
+2026-10-29T03:59:24Z  queue: queue: 94 urls, probed: 25, pending: 69
+2026-10-29T03:59:24Z  sleeping 1200s (cycle 1 done, 597m left)

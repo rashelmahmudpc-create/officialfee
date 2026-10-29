@@ -55,7 +55,7 @@ while [ "$(date +%s)" -lt "$DEADLINE" ]; do
   # Be polite: the probe phase just hit these hosts, and hammering them makes
   # them rate-limit, which would look like a broken source.
   sleep 5
-  log "extract: $(python3 extract_tables.py --from-candidates 2>&1 | tail -1)"
+  log "extract: $(python3 extract_tables.py --from-candidates --budget 25 2>&1 | tail -1)"
   sleep 5
 
   # 2. Re-verify every published record against its source. A source that

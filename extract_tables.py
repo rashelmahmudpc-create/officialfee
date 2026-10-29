@@ -64,6 +64,11 @@ def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("urls", nargs="*")
     ap.add_argument("--from-candidates", action="store_true")
+    ap.add_argument("--budget", type=int, default=25,
+                    help="max URLs to fetch this run, so a growing queue stays polite")
+    ap.add_argument("--recheck-days", type=int, default=7,
+                    help="skip URLs extracted this recently unless --force")
+    ap.add_argument("--force", action="store_true")
     args = ap.parse_args(argv)
 
     urls = list(args.urls)
@@ -75,15 +80,30 @@ def main(argv=None):
                          if l.strip() and not l.startswith("#")]
 
     state = json.loads(STATE.read_text(encoding="utf-8")) if STATE.exists() else {}
-    today = dt.date.today().isoformat()
+    today = dt.date.today()
     found = 0
+
+    # A queue that only grows would re-fetch every URL every cycle, which is both
+    # slow and rude to the hosts. Skip what was read recently and cap the run.
+    fresh_cutoff = (today - dt.timedelta(days=args.recheck_days)).isoformat()
+    todo = []
     for url in urls:
+        prior = state.get(url, {}).get("checked_on")
+        if not args.force and prior and prior > fresh_cutoff:
+            continue
+        todo.append(url)
+    skipped = len(urls) - len(todo)
+    todo = todo[: args.budget]
+    print(f"{len(todo)} to read this run ({skipped} skipped as recently read, "
+          f"{max(0, len(urls) - skipped - len(todo))} left for later)")
+
+    for url in todo:
         status, body = fetch(url)
         if status != 200:
             print(f"  skip {status} {url}")
             continue
         r = rows(body)
-        state[url] = {"checked_on": today, "http_status": status, "rows": r}
+        state[url] = {"checked_on": today.isoformat(), "http_status": status, "rows": r}
         found += len(r)
         print(f"  {len(r):>3} rows  {url}")
 
