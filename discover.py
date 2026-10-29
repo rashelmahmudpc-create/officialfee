@@ -26,15 +26,16 @@ TIMEOUT = 25
 
 # Official hosts we have already proven reachable and worth reading.
 HOSTS = [
+    # Only hosts whose sitemap was confirmed to answer. A dead entry just prints
+    # "no sitemap" every cycle and wastes a request.
     "https://www.gov.uk",
     "https://www.uscis.gov",
     "https://www.irishimmigration.ie",
     "https://immi.homeaffairs.gov.au",
-    "https://www.canada.ca",
     "https://www.mom.gov.sg",
-    "https://www.ica.gov.sg",
-    "https://www.imi.gov.my",
-    "https://www.gdrfad.gov.ae",
+    "https://www.mfa.gov.sg",
+    "https://www.immigration.govt.nz",
+    "https://www.moi.gov.ae",
 ]
 SITEMAPS = ["/sitemap.xml", "/sitemap_index.xml", "/sitemap-index.xml"]
 # A path is interesting if it talks about a fee, a visa or a passport.
@@ -90,7 +91,11 @@ def main(argv=None):
             continue
         locs = urls_from(xml)
         # A sitemap index points at other sitemaps; open the promising ones.
-        children = [u for u in locs if u.endswith(".xml") and (TOPIC.search(u) or MONEY.search(u))][:4]
+        # A sitemap index points at more sitemaps, whose own names are often
+        # opaque ("sitemap_1.xml", ".../sitemap/.../1"). Those are navigation,
+        # not content, so they must NOT be topic-filtered - only the pages inside
+        # them should be. Filtering them here silently yielded nothing.
+        children = [u for u in locs if u.endswith(".xml") or "/sitemap" in u][:4]
         for child in children:
             sub = fetch(child)
             locs += urls_from(sub)

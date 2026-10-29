@@ -31,7 +31,7 @@
     "verified_on": "2026-10-29",
     "status": "verified",
     "checked_by": "mixed",
-    "review_required": false,
+    "review_required": true,
     "claim_patterns": [
       "Single entry\\s*:\\s*€60",
       "Multi entry\\s*:\\s*€100",

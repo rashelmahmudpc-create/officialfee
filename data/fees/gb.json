@@ -49,7 +49,7 @@
     "verified_on": "2026-10-29",
     "status": "verified",
     "checked_by": "mixed",
-    "review_required": false,
+    "review_required": true,
     "claim_patterns": [
       "A Standard Visitor visa costs £135 for up to 6 months",
       "Visitor in Transit visa instead for £74\\.50"
@@ -95,7 +95,7 @@
     "verified_on": "2026-10-29",
     "status": "verified",
     "checked_by": "mixed",
-    "review_required": false,
+    "review_required": true,
     "claim_patterns": [
       "Student - main applicant and dependants £558",
       "Child Student £558"
@@ -147,7 +147,7 @@
     "verified_on": "2026-10-29",
     "status": "verified",
     "checked_by": "mixed",
-    "review_required": false,
+    "review_required": true,
     "claim_patterns": [
       "Skilled Worker, where a certificate of sponsorship has been issued.{0,400}?£819",
       "Skilled Worker - Health and Care Visa.{0,300}?£324"
@@ -175,7 +175,7 @@
     "verified_on": "2026-10-29",
     "status": "verified",
     "checked_by": "mixed",
-    "review_required": false,
+    "review_required": true,
     "claim_patterns": [
       "pay the £937 application fee"
     ],
@@ -220,7 +220,7 @@
     "verified_on": "2026-10-29",
     "status": "verified",
     "checked_by": "mixed",
-    "review_required": false,
+    "review_required": true,
     "claim_patterns": [
       "Cost if joining your partner, parent or child £2,064"
     ],
@@ -253,7 +253,7 @@
     "verified_on": "2026-10-29",
     "status": "verified",
     "checked_by": "mixed",
-    "review_required": false,
+    "review_required": true,
     "claim_patterns": [
       "£776 per year for students",
       "£1,035 per year for all other"
@@ -287,7 +287,7 @@
     "verified_on": "2026-10-29",
     "status": "verified",
     "checked_by": "mixed",
-    "review_required": false,
+    "review_required": true,
     "claim_patterns": [
       "online - it costs £102",
       "paper form - it costs £115\\.50"

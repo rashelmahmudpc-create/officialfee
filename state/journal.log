@@ -77,3 +77,32 @@
 2026-10-29T04:12:48Z  tests: ok
 2026-10-29T04:12:48Z  queue: queue: 94 urls, probed: 94, pending: 0
 2026-10-29T04:12:48Z  cycle 1 done in 79s; 360s rest, 598m left
+2026-10-29T04:15:48Z  === loop start: 10h, cycle budget 6m ===
+2026-10-29T04:15:48Z  --- cycle 1 ---
+2026-10-29T04:15:51Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T04:15:51Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T04:15:51Z  tests: ok
+2026-10-29T04:16:17Z  discover: added 0 new candidate URLs
+2026-10-29T04:16:17Z  probe: queue empty - nothing new to probe 
+2026-10-29T04:16:21Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T04:16:21Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T04:16:21Z  queue: queue: 94 urls, probed: 94, pending: 0
+2026-10-29T04:16:21Z  cycle 1 done in 33s; 360s rest, 599m left
+2026-10-29T04:22:21Z  --- cycle 2 ---
+2026-10-29T04:22:28Z  verify: verified 14, unreachable 8, claims-failed 0, stale-by-age 0
+      NET   uk-standard-visitor-visa-fee       source content changed - needs human review
+      NET   uk-student-visa-fee                source content changed - needs human review
+      NET   uk-skilled-worker-visa-fee         source content changed - needs human review
+      NET   uk-graduate-visa-fee               source content changed - needs human review
+      NET   uk-family-visa-fee                 source content changed - needs human review
+      NET   uk-immigration-health-surcharge    source content changed - needs human review
+      NET   uk-passport-fee                    source content changed - needs human review
+      NET   ireland-visa-fee                   source content changed - needs human review
+2026-10-29T04:22:28Z  build: built 14 indexable pages, 10 hidden (draft or stale)
+2026-10-29T04:22:28Z  tests: ok
+2026-10-29T04:24:15Z  discover: added 0 new candidate URLs
+2026-10-29T04:24:15Z  probe: queue empty - nothing new to probe 
+2026-10-29T04:24:17Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T04:24:17Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T04:24:18Z  queue: queue: 94 urls, probed: 94, pending: 0
+2026-10-29T04:24:18Z  cycle 2 done in 117s; 360s rest, 591m left
