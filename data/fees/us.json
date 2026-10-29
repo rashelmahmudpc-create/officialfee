@@ -26,7 +26,8 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
-    "notes": "",
+    "claim_patterns": [],
+    "notes": "Number verified against the PDF fee schedule; change is detected by file hash.",
     "extra_sources": []
   },
   {
@@ -62,7 +63,8 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
-    "notes": "The Asylum Program Fee is an additional fee, not waivable, paid alongside the filing fee.",
+    "claim_patterns": [],
+    "notes": "The Asylum Program Fee is an additional fee, not waivable, paid alongside the filing fee. Number verified against the PDF fee schedule; change is detected by file hash.",
     "extra_sources": []
   },
   {
@@ -92,7 +94,8 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
-    "notes": "",
+    "claim_patterns": [],
+    "notes": "Number verified against the PDF fee schedule; change is detected by file hash.",
     "extra_sources": []
   },
   {
@@ -128,7 +131,8 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
-    "notes": "You cannot file online if you are requesting a fee waiver or the reduced fee.",
+    "claim_patterns": [],
+    "notes": "You cannot file online if you are requesting a fee waiver or the reduced fee. Number verified against the PDF fee schedule; change is detected by file hash.",
     "extra_sources": []
   },
   {
@@ -158,7 +162,8 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
-    "notes": "",
+    "claim_patterns": [],
+    "notes": "Number verified against the PDF fee schedule; change is detected by file hash.",
     "extra_sources": []
   },
   {
@@ -188,7 +193,8 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
-    "notes": "",
+    "claim_patterns": [],
+    "notes": "Number verified against the PDF fee schedule; change is detected by file hash.",
     "extra_sources": []
   },
   {
@@ -218,7 +224,8 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
-    "notes": "",
+    "claim_patterns": [],
+    "notes": "Number verified against the PDF fee schedule; change is detected by file hash.",
     "extra_sources": []
   },
   {
@@ -242,7 +249,8 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
-    "notes": "Waived for certain groups, including Iraqi and Afghan special immigrants and K nonimmigrants.",
+    "claim_patterns": [],
+    "notes": "Waived for certain groups, including Iraqi and Afghan special immigrants and K nonimmigrants. Number verified against the PDF fee schedule; change is detected by file hash.",
     "extra_sources": []
   },
   {
@@ -266,7 +274,8 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
-    "notes": "Additional fees may apply depending on the classification requested.",
+    "claim_patterns": [],
+    "notes": "Additional fees may apply depending on the classification requested. Number verified against the PDF fee schedule; change is detected by file hash.",
     "extra_sources": []
   },
   {
@@ -290,7 +299,8 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
-    "notes": "Not eligible for a fee waiver request.",
+    "claim_patterns": [],
+    "notes": "Not eligible for a fee waiver request. Number verified against the PDF fee schedule; change is detected by file hash.",
     "extra_sources": []
   },
   {
@@ -320,7 +330,8 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
-    "notes": "",
+    "claim_patterns": [],
+    "notes": "Number verified against the PDF fee schedule; change is detected by file hash.",
     "extra_sources": []
   },
   {
@@ -350,7 +361,8 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
-    "notes": "",
+    "claim_patterns": [],
+    "notes": "Number verified against the PDF fee schedule; change is detected by file hash.",
     "extra_sources": []
   },
   {
@@ -374,7 +386,8 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
-    "notes": "Some applicants, such as Special Immigrant Juveniles, are exempt.",
+    "claim_patterns": [],
+    "notes": "Some applicants, such as Special Immigrant Juveniles, are exempt. Number verified against the PDF fee schedule; change is detected by file hash.",
     "extra_sources": []
   },
   {
@@ -398,7 +411,8 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
-    "notes": "",
+    "claim_patterns": [],
+    "notes": "Number verified against the PDF fee schedule; change is detected by file hash.",
     "extra_sources": []
   }
 ]

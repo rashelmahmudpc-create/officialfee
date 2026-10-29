@@ -70,6 +70,10 @@ class FeeRecord:
     status: str = "draft"
     checked_by: str = "human"
     review_required: bool = False
+    # Regexes that must each still match the source page. A record with no
+    # patterns is only checked for reachability; a record with patterns is
+    # checked for the actual number, which is a much stronger promise.
+    claim_patterns: list = field(default_factory=list)
     notes: str = ""
     extra_sources: list = field(default_factory=list)
 
@@ -92,6 +96,12 @@ class FeeRecord:
             if self.checked_by not in ("human", "automated", "mixed"):
                 raise RecordError(f"bad checked_by: {self.checked_by!r}")
         self.verified_on = str(self.verified_on or "")
+        self.claim_patterns = [str(p) for p in (self.claim_patterns or [])]
+        for pattern in self.claim_patterns:
+            try:
+                re.compile(pattern)
+            except re.error as exc:
+                raise RecordError(f"claim_patterns: bad regex {pattern!r}: {exc}") from None
         self.fees = [f if isinstance(f, FeeItem) else FeeItem(**f) for f in self.fees]
         if not self.fees:
             raise RecordError("a record with no fee lines has nothing to show")

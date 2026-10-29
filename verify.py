@@ -17,7 +17,9 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import hashlib
+import html
 import json
+import re
 import sys
 import time
 import urllib.error
@@ -32,18 +34,24 @@ from ofdata.store import DATA_DIR, load_all, load_country, save_country
 STATE = Path(__file__).resolve().parent / "state" / "verified.json"
 UA = "OfficialFee-verifier/1.0 (+https://officialfee.example/about)"
 TIMEOUT = 25
+# The content hash is taken over the first READ_CAP bytes. Changing this value
+# changes every stored hash, which would flag the whole dataset for review - so
+# it is a constant here rather than a magic number at the call site.
+READ_CAP = 2_000_000
 
 
 def _fetch_once(url, timeout):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
     try:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
-            body = resp.read(200_000)
-            return resp.status, hashlib.sha256(body).hexdigest(), len(body)
+            # Some official fee pages are large; truncating too early cut the
+            # fees section off entirely and looked like a changed page.
+            body = resp.read(READ_CAP)
+            return resp.status, hashlib.sha256(body).hexdigest(), len(body), body
     except urllib.error.HTTPError as exc:
-        return exc.code, None, 0
+        return exc.code, None, 0, b""
     except Exception:  # DNS, TLS, timeout - all the same verdict: unproven
-        return 0, None, 0
+        return 0, None, 0, b""
 
 
 def fetch(url, timeout=TIMEOUT, retries=2):
@@ -54,11 +62,34 @@ def fetch(url, timeout=TIMEOUT, retries=2):
     source, which would hide a page that is in fact fine.
     """
     for attempt in range(retries + 1):
-        status, digest, size = _fetch_once(url, timeout)
+        status, digest, size, body = _fetch_once(url, timeout)
         if 200 <= status < 300 or attempt == retries:
-            return status, digest, size
+            return status, digest, size, body
         time.sleep(1.5 * (attempt + 1))
-    return status, digest, size
+    return status, digest, size, body
+
+
+def page_text(html_text):
+    """Strip markup so a claim pattern can match the visible words."""
+    # Two traps here, both found the hard way:
+    #  * the tag may carry attributes (<style type="text/css">), and
+    #  * a page may contain an unterminated <style> block, so a pattern that
+    #    insists on a closing tag silently leaves raw CSS in the text.
+    text = re.sub(r"<(script|style)\b[^>]*>.*?</\1\s*>", " ", html_text, flags=re.S | re.I)
+    text = re.sub(r"<(script|style)\b[^>]*>.*\Z", " ", text, flags=re.S | re.I)
+    text = re.sub(r"<[^>]+>", " ", text)
+    return " ".join(html.unescape(text).split())
+
+
+def check_claims(record, body):
+    """Every claim pattern must still match the page. Returns (ok, detail)."""
+    if not record.claim_patterns:
+        return True, "no claim patterns"
+    text = page_text(body)
+    missing = [p for p in record.claim_patterns if not re.search(p, text, re.I)]
+    if missing:
+        return False, f"number no longer found on page ({len(missing)} pattern(s) missed)"
+    return True, f"{len(record.claim_patterns)} claim pattern(s) matched"
 
 
 def load_state():
@@ -73,8 +104,11 @@ def save_state(state):
 
 
 def verify_record(record, state, today, dry_run=False):
-    status, digest, size = (0, None, 0) if dry_run else fetch(record.source_url)
+    status, digest, size, body = (0, None, 0, b"") if dry_run else fetch(record.source_url)
     ok = 200 <= status < 300
+    claims_ok, claim_detail = (True, "dry-run") if dry_run else \
+        (check_claims(record, body.decode("utf-8", "ignore")) if ok else (False, "source unreachable"))
+    ok = ok and claims_ok
     previous = state.get(record.slug, {})
     changed = bool(digest and previous.get("hash") and previous["hash"] != digest)
 
@@ -86,6 +120,8 @@ def verify_record(record, state, today, dry_run=False):
         "hash": digest,
         "bytes": size,
         "ok": ok,
+        "claims_ok": claims_ok,
+        "claim_detail": claim_detail,
         "changed": changed,
         "official_host": record.is_official_source(),
     }
@@ -102,6 +138,9 @@ def apply_verdict(record, result, today):
     for a human instead and leave the old date in place.
     """
     if not result["ok"]:
+        if not result.get("claims_ok", True):
+            record.review_required = True
+            return False, result.get("claim_detail", "claim check failed")
         return False, f"source unreachable (HTTP {result['http_status']})"
     if result["changed"]:
         record.review_required = True

@@ -43,13 +43,17 @@
         "notes": ""
       }
     ],
-    "source_url": "https://www.gov.uk/government/publications/visa-regulations-revised-table/home-office-immigration-and-nationality-fees-8-october-2026",
-    "source_name": "GOV.UK - Home Office immigration and nationality fees, effective 8 October 2026",
+    "source_url": "https://www.gov.uk/standard-visitor-visa",
+    "source_name": "GOV.UK - Standard Visitor visa",
     "source_type": "official",
     "verified_on": "2026-10-29",
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
+    "claim_patterns": [
+      "A Standard Visitor visa costs £135 for up to 6 months",
+      "Visitor in Transit visa instead for £74\\.50"
+    ],
     "notes": "Read from the Home Office fees table that took effect on 8 October 2026.",
     "extra_sources": []
   },
@@ -92,6 +96,10 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
+    "claim_patterns": [
+      "Student - main applicant and dependants £558",
+      "Child Student £558"
+    ],
     "notes": "",
     "extra_sources": []
   },
@@ -140,6 +148,10 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
+    "claim_patterns": [
+      "Skilled Worker, where a certificate of sponsorship has been issued.{0,400}?£819",
+      "Skilled Worker - Health and Care Visa.{0,300}?£324"
+    ],
     "notes": "Figures shown are the in-country (inside the UK) application fees from the same table.",
     "extra_sources": []
   },
@@ -164,6 +176,9 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
+    "claim_patterns": [
+      "pay the £937 application fee"
+    ],
     "notes": "",
     "extra_sources": []
   },
@@ -206,6 +221,9 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
+    "claim_patterns": [
+      "Cost if joining your partner, parent or child £2,064"
+    ],
     "notes": "",
     "extra_sources": []
   },
@@ -236,6 +254,10 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
+    "claim_patterns": [
+      "£776 per year for students",
+      "£1,035 per year for all other"
+    ],
     "notes": "",
     "extra_sources": []
   },
@@ -266,6 +288,10 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
+    "claim_patterns": [
+      "online - it costs £102",
+      "paper form - it costs £115\\.50"
+    ],
     "notes": "",
     "extra_sources": []
   }

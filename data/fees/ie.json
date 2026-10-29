@@ -32,6 +32,11 @@
     "status": "verified",
     "checked_by": "mixed",
     "review_required": false,
+    "claim_patterns": [
+      "Single entry\\s*:\\s*€60",
+      "Multi entry\\s*:\\s*€100",
+      "Transit\\s*:\\s*€25"
+    ],
     "notes": "An administration fee that is not refunded if the visa is refused.",
     "extra_sources": []
   }

@@ -57,6 +57,13 @@ class TestModel(unittest.TestCase):
         r = rec(status="draft")
         self.assertFalse(r.publishable(90, dt.date(2026, 1, 2)))
 
+    def test_claim_patterns_must_be_valid_regex(self):
+        with self.assertRaises(RecordError):
+            rec(claim_patterns=["£135 (unclosed"])
+
+    def test_claim_patterns_accepted_when_valid(self):
+        self.assertEqual(len(rec(claim_patterns=[r"£135"]).claim_patterns), 1)
+
     def test_changed_source_forces_review_and_hides(self):
         r = rec(review_required=True)
         self.assertEqual(r.effective_status(90, dt.date(2026, 1, 2)), "review")
