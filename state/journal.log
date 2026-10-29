@@ -106,3 +106,14 @@
 2026-10-29T04:24:17Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
 2026-10-29T04:24:18Z  queue: queue: 94 urls, probed: 94, pending: 0
 2026-10-29T04:24:18Z  cycle 2 done in 117s; 360s rest, 591m left
+2026-10-29T04:24:35Z  === loop start: 10h, cycle budget 6m ===
+2026-10-29T04:24:35Z  --- cycle 1 ---
+2026-10-29T04:24:37Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T04:24:37Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T04:24:37Z  tests: ok
+2026-10-29T04:26:30Z  discover: added 0 new candidate URLs
+2026-10-29T04:26:37Z  probe:   reachable-no-fees  200  0 hits  https://www.uscis.gov/archive-forms-updates/new-fee-rule-update-to-form-i-193-application-for-waiver-of-passport-andor-visa   reachable-no-fees  200  0 hits  https://www.uscis.gov/archive-forms-updates/new-fee-rule-update-to-form-n-336-request-for-a-hearing-on-a-decision-in-naturalization-proceedings   reachable-no-fees  200  0 hits  https://www.uscis.gov/outreach/uscis-virtual-listening-session-on-proposed-rule-to-adjust-certain-immigration-fees 
+2026-10-29T04:26:42Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T04:26:42Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T04:26:42Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T04:26:42Z  cycle 1 done in 127s; 360s rest, 597m left

@@ -3047,5 +3047,70 @@
         ]
       }
     ]
+  },
+  "https://www.gov.uk/government/publications/pay-your-visa-application-fee-in-nepal": {
+    "checked_on": "2026-10-29",
+    "http_status": 200,
+    "rows": []
+  },
+  "https://www.uscis.gov/sites/default/files/document/foia/Naturalization_application_fee_waivers_and_reduced_fees_-_Mayor_Durkan.pdf": {
+    "checked_on": "2026-10-29",
+    "http_status": 200,
+    "rows": []
+  },
+  "https://www.uscis.gov/sites/default/files/document/foia/Proposed_Fee_Schedule_and_Changes_to_Certain_Other_Immigration_Benefit_Request_Requirements_%E2%80%93_Representative_Nadler.pdf": {
+    "checked_on": "2026-10-29",
+    "http_status": 200,
+    "rows": []
+  },
+  "https://www.uscis.gov/sites/default/files/document/foia/OandPVisaFees-RepresentativePingree.pdf": {
+    "checked_on": "2026-10-29",
+    "http_status": 200,
+    "rows": []
+  },
+  "https://www.uscis.gov/sites/default/files/document/fact-sheets/Fact-Sheet-Form-N-400-Application-for-Naturalization-Filing-Fees_Spanish.pdf": {
+    "checked_on": "2026-10-29",
+    "http_status": 200,
+    "rows": []
+  },
+  "https://www.uscis.gov/archive-forms-updates/new-fee-rule-update-to-form-n-600k-application-for-citizenship-and-issuance-of-certificate-under": {
+    "checked_on": "2026-10-29",
+    "http_status": 200,
+    "rows": []
+  },
+  "https://www.uscis.gov/archive-forms-updates/new-fee-rule-update-to-form-i-485-application-to-register-permanent-residence-or-adjust-status": {
+    "checked_on": "2026-10-29",
+    "http_status": 200,
+    "rows": []
+  },
+  "https://www.uscis.gov/archive-forms-updates/new-fee-rule-update-to-form-n-565-application-for-replacement-naturalizationcitizenship-document": {
+    "checked_on": "2026-10-29",
+    "http_status": 200,
+    "rows": []
+  },
+  "https://www.uscis.gov/archive-forms-updates/new-fee-rule-update-to-form-i-751-petition-to-remove-the-conditions-of-residence": {
+    "checked_on": "2026-10-29",
+    "http_status": 200,
+    "rows": []
+  },
+  "https://www.uscis.gov/archive/uscis-immigrant-fee-transition-to-uscis-elis-electronic-immigration-system": {
+    "checked_on": "2026-10-29",
+    "http_status": 200,
+    "rows": []
+  },
+  "https://www.uscis.gov/archive-forms-updates/new-fee-rule-update-to-form-i-193-application-for-waiver-of-passport-andor-visa": {
+    "checked_on": "2026-10-29",
+    "http_status": 200,
+    "rows": []
+  },
+  "https://www.uscis.gov/archive-forms-updates/new-fee-rule-update-to-form-n-336-request-for-a-hearing-on-a-decision-in-naturalization-proceedings": {
+    "checked_on": "2026-10-29",
+    "http_status": 200,
+    "rows": []
+  },
+  "https://www.uscis.gov/outreach/uscis-virtual-listening-session-on-proposed-rule-to-adjust-certain-immigration-fees": {
+    "checked_on": "2026-10-29",
+    "http_status": 200,
+    "rows": []
   }
 }

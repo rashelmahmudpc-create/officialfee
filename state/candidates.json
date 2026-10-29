@@ -649,6 +649,14 @@
     "url": "https://www.gov.uk/government/publications/passport-fees",
     "verdict": "reachable-no-fees"
   },
+  "https://www.gov.uk/government/publications/pay-your-visa-application-fee-in-nepal": {
+    "bytes": 67498,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.gov.uk/government/publications/pay-your-visa-application-fee-in-nepal",
+    "verdict": "reachable-no-fees"
+  },
   "https://www.gov.uk/government/publications/visa-regulations-revised-table/home-office-immigration-and-nationality-fees-8-october-2026": {
     "bytes": 194962,
     "fee_like_hits": [
@@ -841,6 +849,62 @@
     "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility",
     "verdict": "candidate"
   },
+  "https://www.uscis.gov/archive-forms-updates/new-fee-rule-update-to-form-i-193-application-for-waiver-of-passport-andor-visa": {
+    "bytes": 76769,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/archive-forms-updates/new-fee-rule-update-to-form-i-193-application-for-waiver-of-passport-andor-visa",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/archive-forms-updates/new-fee-rule-update-to-form-i-485-application-to-register-permanent-residence-or-adjust-status": {
+    "bytes": 77077,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/archive-forms-updates/new-fee-rule-update-to-form-i-485-application-to-register-permanent-residence-or-adjust-status",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/archive-forms-updates/new-fee-rule-update-to-form-i-751-petition-to-remove-the-conditions-of-residence": {
+    "bytes": 76876,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/archive-forms-updates/new-fee-rule-update-to-form-i-751-petition-to-remove-the-conditions-of-residence",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/archive-forms-updates/new-fee-rule-update-to-form-n-336-request-for-a-hearing-on-a-decision-in-naturalization-proceedings": {
+    "bytes": 77104,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/archive-forms-updates/new-fee-rule-update-to-form-n-336-request-for-a-hearing-on-a-decision-in-naturalization-proceedings",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/archive-forms-updates/new-fee-rule-update-to-form-n-565-application-for-replacement-naturalizationcitizenship-document": {
+    "bytes": 76994,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/archive-forms-updates/new-fee-rule-update-to-form-n-565-application-for-replacement-naturalizationcitizenship-document",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/archive-forms-updates/new-fee-rule-update-to-form-n-600k-application-for-citizenship-and-issuance-of-certificate-under": {
+    "bytes": 77027,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/archive-forms-updates/new-fee-rule-update-to-form-n-600k-application-for-citizenship-and-issuance-of-certificate-under",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/archive/uscis-immigrant-fee-transition-to-uscis-elis-electronic-immigration-system": {
+    "bytes": 78736,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/archive/uscis-immigrant-fee-transition-to-uscis-elis-electronic-immigration-system",
+    "verdict": "reachable-no-fees"
+  },
   "https://www.uscis.gov/i-129": {
     "bytes": 109971,
     "fee_like_hits": [
@@ -961,6 +1025,59 @@
     "http_status": 200,
     "last_probe": "2026-10-29",
     "url": "https://www.uscis.gov/n-600",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/outreach/uscis-virtual-listening-session-on-proposed-rule-to-adjust-certain-immigration-fees": {
+    "bytes": 81628,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/outreach/uscis-virtual-listening-session-on-proposed-rule-to-adjust-certain-immigration-fees",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/sites/default/files/document/fact-sheets/Fact-Sheet-Form-N-400-Application-for-Naturalization-Filing-Fees_Spanish.pdf": {
+    "bytes": 70037,
+    "fee_like_hits": [
+      "$29",
+      "$53"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/sites/default/files/document/fact-sheets/Fact-Sheet-Form-N-400-Application-for-Naturalization-Filing-Fees_Spanish.pdf",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/sites/default/files/document/foia/Naturalization_application_fee_waivers_and_reduced_fees_-_Mayor_Durkan.pdf": {
+    "bytes": 204775,
+    "fee_like_hits": [
+      "$34",
+      "$90"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/sites/default/files/document/foia/Naturalization_application_fee_waivers_and_reduced_fees_-_Mayor_Durkan.pdf",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/sites/default/files/document/foia/OandPVisaFees-RepresentativePingree.pdf": {
+    "bytes": 216140,
+    "fee_like_hits": [
+      "$547",
+      "$60",
+      "$85"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/sites/default/files/document/foia/OandPVisaFees-RepresentativePingree.pdf",
+    "verdict": "candidate"
+  },
+  "https://www.uscis.gov/sites/default/files/document/foia/Proposed_Fee_Schedule_and_Changes_to_Certain_Other_Immigration_Benefit_Request_Requirements_%E2%80%93_Representative_Nadler.pdf": {
+    "bytes": 237748,
+    "fee_like_hits": [
+      "$34",
+      "$58"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/sites/default/files/document/foia/Proposed_Fee_Schedule_and_Changes_to_Certain_Other_Immigration_Benefit_Request_Requirements_%E2%80%93_Representative_Nadler.pdf",
     "verdict": "reachable-no-fees"
   },
   "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf": {
