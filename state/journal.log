@@ -27,3 +27,6 @@
 2026-10-29T03:53:06Z  tests: ok
 2026-10-29T03:53:06Z  queue: queue: 38 urls, probed: 41, pending: 0
 2026-10-29T03:53:06Z  === loop end after 1 cycles ===
+2026-10-29T03:53:14Z  === loop start: 10h, cycle budget 20m ===
+2026-10-29T03:53:14Z  --- cycle 1 ---
+2026-10-29T03:53:14Z  probe: queue empty - nothing new to probe 

@@ -37,7 +37,9 @@ while [ "$(date +%s)" -lt "$DEADLINE" ]; do
   CYCLE=$((CYCLE + 1))
   log "--- cycle $CYCLE ---"
 
-  # 1. Queue fresh candidate rows from the official pages we already trust.
+  # 1. Keep the queue fed from official sitemaps, then probe what is new.
+  #    Discovery only reads government hosts and only appends to the queue.
+  log "discover: $(python3 discover.py --limit 60 2>&1 | tail -1)"
   log "probe: $(python3 harvest.py --probe 25 2>&1 | tail -3 | tr '\n' ' ')"
   # Be polite: the probe phase just hit these hosts, and hammering them makes
   # them rate-limit, which would look like a broken source.
