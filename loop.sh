@@ -57,6 +57,9 @@ while [ "$(date +%s)" -lt "$DEADLINE" ]; do
   # them rate-limit, which would look like a broken source.
   sleep 5
   log "extract: $(python3 extract_tables.py --from-candidates --budget 25 2>&1 | tail -1)"
+  # Staging only ever creates drafts: noindex, no verified date, not in the
+  # sitemap. Publishing still needs a person to read the source and confirm.
+  log "stage: $(python3 stage.py 2>&1 | tail -1)"
   sleep 5
 
   # 2. Re-verify every published record against its source. A source that

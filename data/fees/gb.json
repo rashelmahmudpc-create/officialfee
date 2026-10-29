@@ -294,5 +294,55 @@
     ],
     "notes": "",
     "extra_sources": []
+  },
+  {
+    "country": "GB",
+    "country_name": "United Kingdom",
+    "slug": "gb-standard-visitor-visa-for-medical-reasons-gbp",
+    "category": "visa",
+    "title": "Standard Visitor visa for medical reasons \\n (United Kingdom)",
+    "fees": [
+      {
+        "name": "Standard Visitor visa for medical reasons \\n",
+        "amount": 234.0,
+        "currency": "GBP",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.gov.uk/standard-visitor-visa",
+    "source_name": "www.gov.uk",
+    "source_type": "official",
+    "verified_on": "",
+    "status": "draft",
+    "checked_by": "automated",
+    "review_required": false,
+    "claim_patterns": [],
+    "notes": "Staged automatically from a source page. The number has NOT been confirmed by a person, so this is a draft and is not published.",
+    "extra_sources": []
+  },
+  {
+    "country": "GB",
+    "country_name": "United Kingdom",
+    "slug": "gb-standard-visitor-visa-for-academics-gbp",
+    "category": "visa",
+    "title": "Standard Visitor visa for academics \\n (United Kingdom)",
+    "fees": [
+      {
+        "name": "Standard Visitor visa for academics \\n",
+        "amount": 234.0,
+        "currency": "GBP",
+        "notes": ""
+      }
+    ],
+    "source_url": "https://www.gov.uk/standard-visitor-visa",
+    "source_name": "www.gov.uk",
+    "source_type": "official",
+    "verified_on": "",
+    "status": "draft",
+    "checked_by": "automated",
+    "review_required": false,
+    "claim_patterns": [],
+    "notes": "Staged automatically from a source page. The number has NOT been confirmed by a person, so this is a draft and is not published.",
+    "extra_sources": []
   }
 ]

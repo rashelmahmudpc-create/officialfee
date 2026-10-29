@@ -23,6 +23,110 @@
     "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas",
     "verdict": "unreachable"
   },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/acts-regulations/forward-regulatory-plan/list/travel-documents-fees-regulations.html": {
+    "bytes": 22372,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/acts-regulations/forward-regulatory-plan/list/travel-documents-fees-regulations.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/acts-regulations/forward-regulatory-plan/list/update-fee-regulations-immigration-refugee-protection-regulations.html": {
+    "bytes": 23282,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/acts-regulations/forward-regulatory-plan/list/update-fee-regulations-immigration-refugee-protection-regulations.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/fees-permits-victims.html": {
+    "bytes": 23223,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/fees-permits-victims.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/fee-exemption-minor-child-protection.html": {
+    "bytes": 28210,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/fee-exemption-minor-child-protection.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/indigenous-fee-exemption.html": {
+    "bytes": 36764,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/indigenous-fee-exemption.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/pr-minor-child-protection-fees.html": {
+    "bytes": 25442,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/pr-minor-child-protection-fees.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/remissions-policy-service-fees-act.html": {
+    "bytes": 44879,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/remissions-policy-service-fees-act.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/remissions-policy-service-fees-act/criminal-rehabilitation-remission-policy.html": {
+    "bytes": 28639,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/remissions-policy-service-fees-act/criminal-rehabilitation-remission-policy.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/remissions-policy-service-fees-act/international-experience-canada-subordinate-remission-policy.html": {
+    "bytes": 27445,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/remissions-policy-service-fees-act/international-experience-canada-subordinate-remission-policy.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/remissions-policy-service-fees-act/passport-subordinate-remission-policy.html": {
+    "bytes": 32731,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/remissions-policy-service-fees-act/passport-subordinate-remission-policy.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/remissions-policy-service-fees-act/restoration-temporary-resident-status-remission-policy.html": {
+    "bytes": 28917,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/remissions-policy-service-fees-act/restoration-temporary-resident-status-remission-policy.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/remissions-policy-service-fees-act/right-of-citizenship-subordinate-remission-policy.html": {
+    "bytes": 28145,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/remissions-policy-service-fees-act/right-of-citizenship-subordinate-remission-policy.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/remissions-policy-service-fees-act/temporary-resident-permit-remission-policy.html": {
+    "bytes": 28912,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/remissions-policy-service-fees-act/temporary-resident-permit-remission-policy.html",
+    "verdict": "reachable-no-fees"
+  },
   "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/fees.html": {
     "bytes": 0,
     "fee_like_hits": [],
@@ -69,12 +173,129 @@
     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports-usa/renew-us/submit-form-fees.html",
     "verdict": "reachable-no-fees"
   },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/fees.html": {
+    "bytes": 28641,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/fees.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/fees/fee-changes-passport.html": {
+    "bytes": 26266,
+    "fee_like_hits": [
+      "$100",
+      "$102",
+      "$110",
+      "$120",
+      "$122",
+      "$125",
+      "$135",
+      "$150",
+      "$160",
+      "$163",
+      "$190",
+      "$194"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/fees/fee-changes-passport.html",
+    "verdict": "candidate"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/fees/passport-canada.html": {
+    "bytes": 30476,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/fees/passport-canada.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/fees/passport-outside-canada-united-states.html": {
+    "bytes": 31949,
+    "fee_like_hits": [
+      "$25"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/fees/passport-outside-canada-united-states.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/fees/passport-outside-canada-urgent.html": {
+    "bytes": 33176,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/fees/passport-outside-canada-urgent.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/fees/passport-travel-document-refunds.html": {
+    "bytes": 26887,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/fees/passport-travel-document-refunds.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/fees/passport-united-states.html": {
+    "bytes": 25547,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/fees/passport-united-states.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/fees/travel-document-canada.html": {
+    "bytes": 30200,
+    "fee_like_hits": [
+      "$45"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/fees/travel-document-canada.html",
+    "verdict": "reachable-no-fees"
+  },
   "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/new-adult-passport/apply-submit-fees.html": {
     "bytes": 73149,
     "fee_like_hits": [],
     "http_status": 200,
     "last_probe": "2026-10-29",
     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/new-adult-passport/apply-submit-fees.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/renew-adult-passport/submit-form-fees.html": {
+    "bytes": 26134,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/renew-adult-passport/submit-form-fees.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/renew-adult-passport/submit-form-fees/apply-by-mail.html": {
+    "bytes": 43900,
+    "fee_like_hits": [
+      "$45"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/renew-adult-passport/submit-form-fees/apply-by-mail.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/renew-adult-passport/submit-form-fees/apply-in-person.html": {
+    "bytes": 69540,
+    "fee_like_hits": [
+      "$45"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/renew-adult-passport/submit-form-fees/apply-in-person.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/renew-adult-passport/submit-form-fees/renew-online.html": {
+    "bytes": 28506,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/renew-adult-passport/submit-form-fees/renew-online.html",
     "verdict": "reachable-no-fees"
   },
   "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadians/celebrate-being-canadian/teachers-corner/feedback.html": {

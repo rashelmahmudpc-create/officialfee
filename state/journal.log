@@ -55,3 +55,13 @@
 2026-10-29T04:04:09Z  tests: ok
 2026-10-29T04:04:10Z  queue: queue: 94 urls, probed: 50, pending: 44
 2026-10-29T04:04:10Z  sleeping 1200s (cycle 1 done, 598m left)
+2026-10-29T04:06:41Z  === loop start: 10h, cycle budget 6m ===
+2026-10-29T04:06:41Z  --- cycle 1 ---
+2026-10-29T04:07:07Z  discover: added 0 new candidate URLs
+2026-10-29T04:07:56Z  probe:   reachable-no-fees  200  0 hits  https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/fee-exemption-minor-child-protection.html   reachable-no-fees  200  0 hits  https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/pr-minor-child-protection-fees.html   reachable-no-fees  200  0 hits  https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/indigenous-fee-exemption.html 
+2026-10-29T04:08:06Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T04:08:14Z  verify: verified 22, failed 0 (of which stale-by-age 0)
+2026-10-29T04:08:14Z  build: built 22 indexable pages, 0 hidden (draft or stale)
+2026-10-29T04:08:14Z  tests: ok
+2026-10-29T04:08:14Z  queue: queue: 94 urls, probed: 75, pending: 19
+2026-10-29T04:08:14Z  cycle 1 done in 93s; 360s rest, 598m left
