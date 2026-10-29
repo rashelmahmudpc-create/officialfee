@@ -152,3 +152,613 @@
 2026-10-29T04:42:49Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
 2026-10-29T04:42:49Z  queue: queue: 107 urls, probed: 107, pending: 0
 2026-10-29T04:42:49Z  cycle 3 done in 123s; 360s rest, 581m left
+2026-10-29T04:48:49Z  --- cycle 4 ---
+2026-10-29T04:48:52Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T04:48:53Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T04:48:53Z  tests: ok
+2026-10-29T04:50:52Z  discover: added 0 new candidate URLs
+2026-10-29T04:50:52Z  probe: queue empty - nothing new to probe 
+2026-10-29T04:50:55Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T04:50:55Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T04:50:55Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T04:50:55Z  cycle 4 done in 126s; 360s rest, 573m left
+2026-10-29T04:56:55Z  --- cycle 5 ---
+2026-10-29T04:57:00Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T04:57:00Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T04:57:00Z  tests: ok
+2026-10-29T04:58:54Z  discover: added 0 new candidate URLs
+2026-10-29T04:58:54Z  probe: queue empty - nothing new to probe 
+2026-10-29T04:58:56Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T04:58:56Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T04:58:56Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T04:58:56Z  cycle 5 done in 121s; 360s rest, 565m left
+2026-10-29T05:04:56Z  --- cycle 6 ---
+2026-10-29T05:05:01Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T05:05:01Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T05:05:01Z  tests: ok
+2026-10-29T05:06:56Z  discover: added 0 new candidate URLs
+2026-10-29T05:06:56Z  probe: queue empty - nothing new to probe 
+2026-10-29T05:06:59Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T05:06:59Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T05:06:59Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T05:06:59Z  cycle 6 done in 123s; 360s rest, 557m left
+2026-10-29T05:12:59Z  --- cycle 7 ---
+2026-10-29T05:13:04Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T05:13:04Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T05:13:04Z  tests: ok
+2026-10-29T05:14:57Z  discover: added 0 new candidate URLs
+2026-10-29T05:14:57Z  probe: queue empty - nothing new to probe 
+2026-10-29T05:15:01Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T05:15:01Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T05:15:01Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T05:15:01Z  cycle 7 done in 122s; 360s rest, 549m left
+2026-10-29T05:21:01Z  --- cycle 8 ---
+2026-10-29T05:21:06Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T05:21:06Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T05:21:06Z  tests: ok
+2026-10-29T05:23:01Z  discover: added 0 new candidate URLs
+2026-10-29T05:23:01Z  probe: queue empty - nothing new to probe 
+2026-10-29T05:23:06Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T05:23:06Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T05:23:06Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T05:23:06Z  cycle 8 done in 125s; 360s rest, 541m left
+2026-10-29T05:29:06Z  --- cycle 9 ---
+2026-10-29T05:29:11Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T05:29:11Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T05:29:11Z  tests: ok
+2026-10-29T05:31:04Z  discover: added 0 new candidate URLs
+2026-10-29T05:31:04Z  probe: queue empty - nothing new to probe 
+2026-10-29T05:31:07Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T05:31:07Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T05:31:07Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T05:31:07Z  cycle 9 done in 121s; 360s rest, 533m left
+2026-10-29T05:37:07Z  --- cycle 10 ---
+2026-10-29T05:37:13Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T05:37:13Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T05:37:13Z  tests: ok
+2026-10-29T05:39:06Z  discover: added 0 new candidate URLs
+2026-10-29T05:39:06Z  probe: queue empty - nothing new to probe 
+2026-10-29T05:39:09Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T05:39:09Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T05:39:09Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T05:39:09Z  cycle 10 done in 122s; 360s rest, 525m left
+2026-10-29T05:45:09Z  --- cycle 11 ---
+2026-10-29T05:45:16Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T05:45:16Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T05:45:16Z  tests: ok
+2026-10-29T05:47:07Z  discover: added 0 new candidate URLs
+2026-10-29T05:47:07Z  probe: queue empty - nothing new to probe 
+2026-10-29T05:47:10Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T05:47:10Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T05:47:10Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T05:47:10Z  cycle 11 done in 121s; 360s rest, 517m left
+2026-10-29T05:53:10Z  --- cycle 12 ---
+2026-10-29T05:53:16Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T05:53:16Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T05:53:16Z  tests: ok
+2026-10-29T05:55:08Z  discover: added 0 new candidate URLs
+2026-10-29T05:55:08Z  probe: queue empty - nothing new to probe 
+2026-10-29T05:55:12Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T05:55:12Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T05:55:12Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T05:55:12Z  cycle 12 done in 122s; 360s rest, 509m left
+2026-10-29T06:01:12Z  --- cycle 13 ---
+2026-10-29T06:01:18Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T06:01:18Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T06:01:18Z  tests: ok
+2026-10-29T06:03:07Z  discover: added 0 new candidate URLs
+2026-10-29T06:03:07Z  probe: queue empty - nothing new to probe 
+2026-10-29T06:03:11Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T06:03:11Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T06:03:11Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T06:03:11Z  cycle 13 done in 119s; 360s rest, 501m left
+2026-10-29T06:09:11Z  --- cycle 14 ---
+2026-10-29T06:09:18Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T06:09:18Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T06:09:18Z  tests: ok
+2026-10-29T06:11:10Z  discover: added 0 new candidate URLs
+2026-10-29T06:11:10Z  probe: queue empty - nothing new to probe 
+2026-10-29T06:11:12Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T06:11:12Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T06:11:12Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T06:11:12Z  cycle 14 done in 121s; 360s rest, 493m left
+2026-10-29T06:17:12Z  --- cycle 15 ---
+2026-10-29T06:17:18Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T06:17:18Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T06:17:18Z  tests: ok
+2026-10-29T06:19:07Z  discover: added 0 new candidate URLs
+2026-10-29T06:19:07Z  probe: queue empty - nothing new to probe 
+2026-10-29T06:19:27Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T06:19:27Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T06:19:27Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T06:19:27Z  cycle 15 done in 135s; 360s rest, 485m left
+2026-10-29T06:25:27Z  --- cycle 16 ---
+2026-10-29T06:25:33Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T06:25:33Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T06:25:33Z  tests: ok
+2026-10-29T06:27:24Z  discover: added 0 new candidate URLs
+2026-10-29T06:27:24Z  probe: queue empty - nothing new to probe 
+2026-10-29T06:27:29Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T06:27:29Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T06:27:29Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T06:27:29Z  cycle 16 done in 122s; 360s rest, 477m left
+2026-10-29T06:33:29Z  --- cycle 17 ---
+2026-10-29T06:33:35Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T06:33:35Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T06:33:35Z  tests: ok
+2026-10-29T06:35:25Z  discover: added 0 new candidate URLs
+2026-10-29T06:35:25Z  probe: queue empty - nothing new to probe 
+2026-10-29T06:35:28Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T06:35:28Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T06:35:28Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T06:35:28Z  cycle 17 done in 119s; 360s rest, 469m left
+2026-10-29T06:41:28Z  --- cycle 18 ---
+2026-10-29T06:41:34Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T06:41:34Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T06:41:34Z  tests: ok
+2026-10-29T06:43:24Z  discover: added 0 new candidate URLs
+2026-10-29T06:43:24Z  probe: queue empty - nothing new to probe 
+2026-10-29T06:43:27Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T06:43:27Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T06:43:27Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T06:43:27Z  cycle 18 done in 119s; 360s rest, 461m left
+2026-10-29T06:49:27Z  --- cycle 19 ---
+2026-10-29T06:49:32Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T06:49:32Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T06:49:32Z  tests: ok
+2026-10-29T06:51:22Z  discover: added 0 new candidate URLs
+2026-10-29T06:51:22Z  probe: queue empty - nothing new to probe 
+2026-10-29T06:51:25Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T06:51:26Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T06:51:26Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T06:51:26Z  cycle 19 done in 119s; 360s rest, 453m left
+2026-10-29T06:57:26Z  --- cycle 20 ---
+2026-10-29T06:57:32Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T06:57:32Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T06:57:32Z  tests: ok
+2026-10-29T06:59:23Z  discover: added 0 new candidate URLs
+2026-10-29T06:59:23Z  probe: queue empty - nothing new to probe 
+2026-10-29T06:59:26Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T06:59:26Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T06:59:26Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T06:59:26Z  cycle 20 done in 120s; 360s rest, 445m left
+2026-10-29T07:05:26Z  --- cycle 21 ---
+2026-10-29T07:05:32Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T07:05:32Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T07:05:32Z  tests: ok
+2026-10-29T07:07:20Z  discover: added 0 new candidate URLs
+2026-10-29T07:07:21Z  probe: queue empty - nothing new to probe 
+2026-10-29T07:07:24Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T07:07:24Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T07:07:24Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T07:07:24Z  cycle 21 done in 118s; 360s rest, 437m left
+2026-10-29T07:13:24Z  --- cycle 22 ---
+2026-10-29T07:13:31Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T07:13:31Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T07:13:31Z  tests: ok
+2026-10-29T07:15:21Z  discover: added 0 new candidate URLs
+2026-10-29T07:15:21Z  probe: queue empty - nothing new to probe 
+2026-10-29T07:15:23Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T07:15:24Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T07:15:24Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T07:15:24Z  cycle 22 done in 120s; 360s rest, 429m left
+2026-10-29T07:21:24Z  --- cycle 23 ---
+2026-10-29T07:21:30Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T07:21:30Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T07:21:30Z  tests: ok
+2026-10-29T07:23:18Z  discover: added 0 new candidate URLs
+2026-10-29T07:23:19Z  probe: queue empty - nothing new to probe 
+2026-10-29T07:23:22Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T07:23:22Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T07:23:22Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T07:23:22Z  cycle 23 done in 118s; 360s rest, 421m left
+2026-10-29T07:29:22Z  --- cycle 24 ---
+2026-10-29T07:29:29Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T07:29:29Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T07:29:30Z  tests: ok
+2026-10-29T07:31:20Z  discover: added 0 new candidate URLs
+2026-10-29T07:31:20Z  probe: queue empty - nothing new to probe 
+2026-10-29T07:31:22Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T07:31:22Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T07:31:22Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T07:31:22Z  cycle 24 done in 120s; 360s rest, 413m left
+2026-10-29T07:37:23Z  --- cycle 25 ---
+2026-10-29T07:37:30Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T07:37:30Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T07:37:30Z  tests: ok
+2026-10-29T07:39:19Z  discover: added 0 new candidate URLs
+2026-10-29T07:39:19Z  probe: queue empty - nothing new to probe 
+2026-10-29T07:39:22Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T07:39:22Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T07:39:22Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T07:39:22Z  cycle 25 done in 119s; 360s rest, 405m left
+2026-10-29T07:45:22Z  --- cycle 26 ---
+2026-10-29T07:45:27Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T07:45:27Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T07:45:28Z  tests: ok
+2026-10-29T07:47:19Z  discover: added 0 new candidate URLs
+2026-10-29T07:47:19Z  probe: queue empty - nothing new to probe 
+2026-10-29T07:47:22Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T07:47:22Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T07:47:22Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T07:47:22Z  cycle 26 done in 120s; 360s rest, 397m left
+2026-10-29T07:53:22Z  --- cycle 27 ---
+2026-10-29T07:53:28Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T07:53:28Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T07:53:28Z  tests: ok
+2026-10-29T07:55:18Z  discover: added 0 new candidate URLs
+2026-10-29T07:55:18Z  probe: queue empty - nothing new to probe 
+2026-10-29T07:55:22Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T07:55:22Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T07:55:22Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T07:55:22Z  cycle 27 done in 120s; 360s rest, 389m left
+2026-10-29T08:01:22Z  --- cycle 28 ---
+2026-10-29T08:01:27Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T08:01:27Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T08:01:27Z  tests: ok
+2026-10-29T08:03:17Z  discover: added 0 new candidate URLs
+2026-10-29T08:03:17Z  probe: queue empty - nothing new to probe 
+2026-10-29T08:03:19Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T08:03:20Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T08:03:20Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T08:03:20Z  cycle 28 done in 118s; 360s rest, 381m left
+2026-10-29T08:09:20Z  --- cycle 29 ---
+2026-10-29T08:09:27Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T08:09:27Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T08:09:27Z  tests: ok
+2026-10-29T08:11:16Z  discover: added 0 new candidate URLs
+2026-10-29T08:11:16Z  probe: queue empty - nothing new to probe 
+2026-10-29T08:11:21Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T08:11:21Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T08:11:21Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T08:11:21Z  cycle 29 done in 121s; 360s rest, 373m left
+2026-10-29T08:17:21Z  --- cycle 30 ---
+2026-10-29T08:17:26Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T08:17:26Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T08:17:26Z  tests: ok
+2026-10-29T08:19:17Z  discover: added 0 new candidate URLs
+2026-10-29T08:19:17Z  probe: queue empty - nothing new to probe 
+2026-10-29T08:19:21Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T08:19:21Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T08:19:21Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T08:19:21Z  cycle 30 done in 120s; 360s rest, 365m left
+2026-10-29T08:25:21Z  --- cycle 31 ---
+2026-10-29T08:25:27Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T08:25:27Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T08:25:27Z  tests: ok
+2026-10-29T08:27:16Z  discover: added 0 new candidate URLs
+2026-10-29T08:27:16Z  probe: queue empty - nothing new to probe 
+2026-10-29T08:27:21Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T08:27:21Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T08:27:21Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T08:27:21Z  cycle 31 done in 120s; 360s rest, 357m left
+2026-10-29T08:33:21Z  --- cycle 32 ---
+2026-10-29T08:33:28Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T08:33:28Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T08:33:28Z  tests: ok
+2026-10-29T08:35:20Z  discover: added 0 new candidate URLs
+2026-10-29T08:35:20Z  probe: queue empty - nothing new to probe 
+2026-10-29T08:35:23Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T08:35:23Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T08:35:23Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T08:35:23Z  cycle 32 done in 122s; 360s rest, 349m left
+2026-10-29T08:41:23Z  --- cycle 33 ---
+2026-10-29T08:41:30Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T08:41:30Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T08:41:30Z  tests: ok
+2026-10-29T08:43:21Z  discover: added 0 new candidate URLs
+2026-10-29T08:43:21Z  probe: queue empty - nothing new to probe 
+2026-10-29T08:43:24Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T08:43:24Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T08:43:24Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T08:43:24Z  cycle 33 done in 121s; 360s rest, 341m left
+2026-10-29T08:49:24Z  --- cycle 34 ---
+2026-10-29T08:49:31Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T08:49:31Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T08:49:31Z  tests: ok
+2026-10-29T08:51:21Z  discover: added 0 new candidate URLs
+2026-10-29T08:51:22Z  probe: queue empty - nothing new to probe 
+2026-10-29T08:51:24Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T08:51:24Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T08:51:25Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T08:51:25Z  cycle 34 done in 121s; 360s rest, 333m left
+2026-10-29T08:57:25Z  --- cycle 35 ---
+2026-10-29T08:57:30Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T08:57:30Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T08:57:30Z  tests: ok
+2026-10-29T08:59:19Z  discover: added 0 new candidate URLs
+2026-10-29T08:59:19Z  probe: queue empty - nothing new to probe 
+2026-10-29T08:59:22Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T08:59:22Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T08:59:22Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T08:59:22Z  cycle 35 done in 117s; 360s rest, 325m left
+2026-10-29T09:05:22Z  --- cycle 36 ---
+2026-10-29T09:05:28Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T09:05:28Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T09:05:29Z  tests: ok
+2026-10-29T09:07:20Z  discover: added 0 new candidate URLs
+2026-10-29T09:07:20Z  probe: queue empty - nothing new to probe 
+2026-10-29T09:07:22Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T09:07:22Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T09:07:23Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T09:07:23Z  cycle 36 done in 121s; 360s rest, 317m left
+2026-10-29T09:13:23Z  --- cycle 37 ---
+2026-10-29T09:13:29Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T09:13:29Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T09:13:29Z  tests: ok
+2026-10-29T09:15:18Z  discover: added 0 new candidate URLs
+2026-10-29T09:15:18Z  probe: queue empty - nothing new to probe 
+2026-10-29T09:15:23Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T09:15:23Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T09:15:23Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T09:15:23Z  cycle 37 done in 120s; 360s rest, 309m left
+2026-10-29T09:21:23Z  --- cycle 38 ---
+2026-10-29T09:21:29Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T09:21:29Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T09:21:30Z  tests: ok
+2026-10-29T09:23:21Z  discover: added 0 new candidate URLs
+2026-10-29T09:23:21Z  probe: queue empty - nothing new to probe 
+2026-10-29T09:23:25Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T09:23:25Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T09:23:25Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T09:23:25Z  cycle 38 done in 122s; 360s rest, 301m left
+2026-10-29T09:29:25Z  --- cycle 39 ---
+2026-10-29T09:29:32Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T09:29:32Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T09:29:32Z  tests: ok
+2026-10-29T09:31:21Z  discover: added 0 new candidate URLs
+2026-10-29T09:31:21Z  probe: queue empty - nothing new to probe 
+2026-10-29T09:31:24Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T09:31:24Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T09:31:24Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T09:31:24Z  cycle 39 done in 119s; 360s rest, 293m left
+2026-10-29T09:37:24Z  --- cycle 40 ---
+2026-10-29T09:37:30Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T09:37:30Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T09:37:30Z  tests: ok
+2026-10-29T09:39:21Z  discover: added 0 new candidate URLs
+2026-10-29T09:39:21Z  probe: queue empty - nothing new to probe 
+2026-10-29T09:39:25Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T09:39:25Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T09:39:25Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T09:39:25Z  cycle 40 done in 121s; 360s rest, 285m left
+2026-10-29T09:45:25Z  --- cycle 41 ---
+2026-10-29T09:45:31Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T09:45:31Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T09:45:31Z  tests: ok
+2026-10-29T09:47:21Z  discover: added 0 new candidate URLs
+2026-10-29T09:47:22Z  probe: queue empty - nothing new to probe 
+2026-10-29T09:47:25Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T09:47:25Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T09:47:25Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T09:47:25Z  cycle 41 done in 120s; 360s rest, 277m left
+2026-10-29T09:53:25Z  --- cycle 42 ---
+2026-10-29T09:53:30Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T09:53:30Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T09:53:31Z  tests: ok
+2026-10-29T09:55:21Z  discover: added 0 new candidate URLs
+2026-10-29T09:55:21Z  probe: queue empty - nothing new to probe 
+2026-10-29T09:55:25Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T09:55:25Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T09:55:25Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T09:55:25Z  cycle 42 done in 120s; 360s rest, 269m left
+2026-10-29T10:01:26Z  --- cycle 43 ---
+2026-10-29T10:01:31Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T10:01:31Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T10:01:31Z  tests: ok
+2026-10-29T10:03:21Z  discover: added 0 new candidate URLs
+2026-10-29T10:03:21Z  probe: queue empty - nothing new to probe 
+2026-10-29T10:03:24Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T10:03:24Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T10:03:24Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T10:03:24Z  cycle 43 done in 118s; 360s rest, 261m left
+2026-10-29T10:09:24Z  --- cycle 44 ---
+2026-10-29T10:09:30Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T10:09:30Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T10:09:30Z  tests: ok
+2026-10-29T10:11:21Z  discover: added 0 new candidate URLs
+2026-10-29T10:11:21Z  probe: queue empty - nothing new to probe 
+2026-10-29T10:11:26Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T10:11:26Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T10:11:26Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T10:11:26Z  cycle 44 done in 122s; 360s rest, 253m left
+2026-10-29T10:17:26Z  --- cycle 45 ---
+2026-10-29T10:17:32Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T10:17:32Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T10:17:33Z  tests: ok
+2026-10-29T10:19:22Z  discover: added 0 new candidate URLs
+2026-10-29T10:19:23Z  probe: queue empty - nothing new to probe 
+2026-10-29T10:19:26Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T10:19:26Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T10:19:26Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T10:19:26Z  cycle 45 done in 120s; 360s rest, 245m left
+2026-10-29T10:25:26Z  --- cycle 46 ---
+2026-10-29T10:25:32Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T10:25:32Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T10:25:32Z  tests: ok
+2026-10-29T10:27:23Z  discover: added 0 new candidate URLs
+2026-10-29T10:27:23Z  probe: queue empty - nothing new to probe 
+2026-10-29T10:27:26Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T10:27:26Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T10:27:26Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T10:27:26Z  cycle 46 done in 120s; 360s rest, 237m left
+2026-10-29T10:33:26Z  --- cycle 47 ---
+2026-10-29T10:33:32Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T10:33:32Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T10:33:32Z  tests: ok
+2026-10-29T10:35:23Z  discover: added 0 new candidate URLs
+2026-10-29T10:35:23Z  probe: queue empty - nothing new to probe 
+2026-10-29T10:35:26Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T10:35:26Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T10:35:27Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T10:35:27Z  cycle 47 done in 121s; 360s rest, 229m left
+2026-10-29T10:41:27Z  --- cycle 48 ---
+2026-10-29T10:41:33Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T10:41:33Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T10:41:33Z  tests: ok
+2026-10-29T10:43:25Z  discover: added 0 new candidate URLs
+2026-10-29T10:43:25Z  probe: queue empty - nothing new to probe 
+2026-10-29T10:43:30Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T10:43:30Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T10:43:30Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T10:43:30Z  cycle 48 done in 123s; 360s rest, 221m left
+2026-10-29T10:49:30Z  --- cycle 49 ---
+2026-10-29T10:49:37Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T10:49:37Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T10:49:37Z  tests: ok
+2026-10-29T10:51:29Z  discover: added 0 new candidate URLs
+2026-10-29T10:51:30Z  probe: queue empty - nothing new to probe 
+2026-10-29T10:51:32Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T10:51:33Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T10:51:33Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T10:51:33Z  cycle 49 done in 123s; 360s rest, 213m left
+2026-10-29T10:57:33Z  --- cycle 50 ---
+2026-10-29T10:57:39Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T10:57:39Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T10:57:40Z  tests: ok
+2026-10-29T10:59:29Z  discover: added 0 new candidate URLs
+2026-10-29T10:59:29Z  probe: queue empty - nothing new to probe 
+2026-10-29T10:59:31Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T10:59:31Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T10:59:31Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T10:59:31Z  cycle 50 done in 118s; 360s rest, 205m left
+2026-10-29T11:05:32Z  --- cycle 51 ---
+2026-10-29T11:05:36Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T11:05:36Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T11:05:36Z  tests: ok
+2026-10-29T11:07:25Z  discover: added 0 new candidate URLs
+2026-10-29T11:07:25Z  probe: queue empty - nothing new to probe 
+2026-10-29T11:07:44Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T11:07:44Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T11:07:44Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T11:07:44Z  cycle 51 done in 132s; 360s rest, 196m left
+2026-10-29T11:13:44Z  --- cycle 52 ---
+2026-10-29T11:13:51Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T11:13:51Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T11:13:51Z  tests: ok
+2026-10-29T11:15:42Z  discover: added 0 new candidate URLs
+2026-10-29T11:15:42Z  probe: queue empty - nothing new to probe 
+2026-10-29T11:15:46Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T11:15:46Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T11:15:46Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T11:15:46Z  cycle 52 done in 122s; 360s rest, 188m left
+2026-10-29T11:21:46Z  --- cycle 53 ---
+2026-10-29T11:21:55Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T11:21:55Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T11:21:55Z  tests: ok
+2026-10-29T11:23:58Z  discover: added 0 new candidate URLs
+2026-10-29T11:23:58Z  probe: queue empty - nothing new to probe 
+2026-10-29T11:24:00Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T11:24:01Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T11:24:01Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T11:24:01Z  cycle 53 done in 135s; 360s rest, 180m left
+2026-10-29T11:30:01Z  --- cycle 54 ---
+2026-10-29T11:30:05Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T11:30:05Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T11:30:05Z  tests: ok
+2026-10-29T11:31:55Z  discover: added 0 new candidate URLs
+2026-10-29T11:31:55Z  probe: queue empty - nothing new to probe 
+2026-10-29T11:31:58Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T11:31:58Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T11:31:58Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T11:31:58Z  cycle 54 done in 117s; 360s rest, 172m left
+2026-10-29T11:37:58Z  --- cycle 55 ---
+2026-10-29T11:38:06Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T11:38:06Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T11:38:06Z  tests: ok
+2026-10-29T11:40:02Z  discover: added 0 new candidate URLs
+2026-10-29T11:40:02Z  probe: queue empty - nothing new to probe 
+2026-10-29T11:40:04Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T11:40:04Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T11:40:04Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T11:40:04Z  cycle 55 done in 126s; 360s rest, 164m left
+2026-10-29T11:46:04Z  --- cycle 56 ---
+2026-10-29T11:46:09Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T11:46:09Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T11:46:10Z  tests: ok
+2026-10-29T11:48:00Z  discover: added 0 new candidate URLs
+2026-10-29T11:48:00Z  probe: queue empty - nothing new to probe 
+2026-10-29T11:48:02Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T11:48:02Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T11:48:02Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T11:48:02Z  cycle 56 done in 118s; 360s rest, 156m left
+2026-10-29T11:54:02Z  --- cycle 57 ---
+2026-10-29T11:54:09Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T11:54:09Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T11:54:09Z  tests: ok
+2026-10-29T11:56:06Z  discover: added 0 new candidate URLs
+2026-10-29T11:56:06Z  probe: queue empty - nothing new to probe 
+2026-10-29T11:56:10Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T11:56:10Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T11:56:10Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T11:56:10Z  cycle 57 done in 128s; 360s rest, 148m left
+2026-10-29T12:02:10Z  --- cycle 58 ---
+2026-10-29T12:02:17Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T12:02:17Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T12:02:17Z  tests: ok
+2026-10-29T12:04:23Z  discover: added 0 new candidate URLs
+2026-10-29T12:04:23Z  probe: queue empty - nothing new to probe 
+2026-10-29T12:04:26Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T12:04:26Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T12:04:26Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T12:04:26Z  cycle 58 done in 136s; 360s rest, 140m left
+2026-10-29T12:10:26Z  --- cycle 59 ---
+2026-10-29T12:10:32Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T12:10:32Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T12:10:33Z  tests: ok
+2026-10-29T12:12:26Z  discover: added 0 new candidate URLs
+2026-10-29T12:12:26Z  probe: queue empty - nothing new to probe 
+2026-10-29T12:12:30Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T12:12:30Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T12:12:30Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T12:12:30Z  cycle 59 done in 124s; 360s rest, 132m left
+2026-10-29T12:18:30Z  --- cycle 60 ---
+2026-10-29T12:18:36Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T12:18:36Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T12:18:36Z  tests: ok
+2026-10-29T12:20:29Z  discover: added 0 new candidate URLs
+2026-10-29T12:20:29Z  probe: queue empty - nothing new to probe 
+2026-10-29T12:20:32Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T12:20:32Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T12:20:32Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T12:20:32Z  cycle 60 done in 122s; 360s rest, 124m left
+2026-10-29T12:26:32Z  --- cycle 61 ---
+2026-10-29T12:26:39Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T12:26:39Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T12:26:39Z  tests: ok
+2026-10-29T12:28:30Z  discover: added 0 new candidate URLs
+2026-10-29T12:28:30Z  probe: queue empty - nothing new to probe 
+2026-10-29T12:28:34Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T12:28:34Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T12:28:34Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T12:28:34Z  cycle 61 done in 122s; 360s rest, 116m left
+2026-10-29T12:34:34Z  --- cycle 62 ---
+2026-10-29T12:34:40Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T12:34:40Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T12:34:40Z  tests: ok
+2026-10-29T12:36:33Z  discover: added 0 new candidate URLs
+2026-10-29T12:36:33Z  probe: queue empty - nothing new to probe 
+2026-10-29T12:36:37Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T12:36:37Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T12:36:38Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T12:36:38Z  cycle 62 done in 124s; 360s rest, 107m left
+2026-10-29T12:42:38Z  --- cycle 63 ---
+2026-10-29T12:42:45Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T12:42:45Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T12:42:45Z  tests: ok
+2026-10-29T12:44:36Z  discover: added 0 new candidate URLs
+2026-10-29T12:44:36Z  probe: queue empty - nothing new to probe 
+2026-10-29T12:44:56Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T12:44:56Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T12:44:56Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T12:44:56Z  cycle 63 done in 138s; 360s rest, 99m left
+2026-10-29T12:50:56Z  --- cycle 64 ---
+2026-10-29T12:51:02Z  verify: verified 22, unreachable 0, claims-failed 0, stale-by-age 0
+2026-10-29T12:51:02Z  build: built 22 indexable pages, 2 hidden (draft or stale)
+2026-10-29T12:51:02Z  tests: ok
+2026-10-29T12:52:53Z  discover: added 0 new candidate URLs
+2026-10-29T12:52:53Z  probe: queue empty - nothing new to probe 
+2026-10-29T12:52:56Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T12:52:56Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T12:52:56Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T12:52:56Z  cycle 64 done in 120s; 360s rest, 91m left

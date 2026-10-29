@@ -3,3 +3,7 @@ dist/
 __pycache__/
 *.pyc
 .loop.lock
+.loop.lock
+state/loop.pid
+state/loop.out
+state/discovered.txt
