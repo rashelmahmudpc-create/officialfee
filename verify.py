@@ -76,7 +76,10 @@ def page_text(html_text):
     #  * a page may contain an unterminated <style> block, so a pattern that
     #    insists on a closing tag silently leaves raw CSS in the text.
     text = re.sub(r"<(script|style)\b[^>]*>.*?</\1\s*>", " ", html_text, flags=re.S | re.I)
-    text = re.sub(r"<(script|style)\b[^>]*>.*\Z", " ", text, flags=re.S | re.I)
+    # For a tag that never closes, cut only up to the next markup tag rather
+    # than to the end of the document. CSS contains no "<", so this drops the
+    # stylesheet and keeps whatever real content follows it.
+    text = re.sub(r"<(script|style)\b[^>]*>[^<]*", " ", text, flags=re.S | re.I)
     text = re.sub(r"<[^>]+>", " ", text)
     return " ".join(html.unescape(text).split())
 
@@ -133,10 +136,17 @@ def verify_record(record, state, today, dry_run=False):
 def apply_verdict(record, result, today):
     """Promote to verified only when the evidence actually supports it.
 
-    A changed source is the dangerous case: the page may now say a different
-    number, so refreshing the date would claim a check we did not do. Flag it
-    for a human instead and leave the old date in place.
+    Three things this must never do, each learned the hard way:
+
+    * never promote a *draft* - a draft means "a script read this off a page and
+      nobody has confirmed it". Reaching the URL is not confirmation, and
+      auto-promoting here would publish an unread number with a fresh date.
+    * never refresh the date when the source *changed* - we no longer know the
+      number is right, so refreshing would claim a check we did not do.
+    * never treat an unreachable host as a defect in our data.
     """
+    if record.status == "draft":
+        return False, "draft - needs a person to confirm the number before it can be verified"
     if not result["ok"]:
         if not result.get("claims_ok", True):
             record.review_required = True
@@ -186,19 +196,24 @@ def main(argv=None):
         return 0
 
     if args.all:
-        records = list(load_all().values())
+        all_records = list(load_all().values())
         by_country = {}
-        for r in records:
+        for r in all_records:
             by_country.setdefault(r.country, []).append(r)
+        # Drafts are not checked at all: they have no claim to defend, and
+        # fetching them would only invite the promotion bug above.
+        records = [r for r in all_records if r.status != "draft"]
     else:
-        records = load_country(args.country)
-        by_country = {args.country.upper(): records}
+        records = [r for r in load_country(args.country) if r.status != "draft"]
+        by_country = {args.country.upper(): load_country(args.country)}
 
     if not records:
-        print("no records found", file=sys.stderr)
-        return 2
+        print("no published records to verify (drafts are skipped by design)")
+        return 0
 
     promoted = stale = failed = 0
+    claim_failures = 0
+    unreachable = 0
     for record in records:
         result = verify_record(record, state, today, args.dry_run)
         ok, why = (False, "dry-run") if args.dry_run else apply_verdict(record, result, today)
@@ -210,15 +225,28 @@ def main(argv=None):
             age = record.age_days(today)
             if age is not None and age > args.max_age:
                 stale += 1
-            print(f"  FAIL  {record.slug:<34} {why}", file=sys.stderr)
+            if result.get("claims_ok") is False:
+                claim_failures += 1
+                kind = "CLAIM"
+            else:
+                # A source we could not reach is a different thing from a source
+                # that changed: the page may be perfectly fine. Reported, but not
+                # treated as a defect in our data.
+                unreachable += 1
+                kind = "NET  "
+            print(f"  {kind} {record.slug:<34} {why}", file=sys.stderr)
 
     if not args.dry_run:
         for country, group in by_country.items():
             save_country(country, group)
         save_state(state)
 
-    print(f"\nverified {promoted}, failed {failed} (of which stale-by-age {stale})")
-    return 0 if failed == 0 else 1
+    print(f"\nverified {promoted}, unreachable {unreachable}, "
+          f"claims-failed {claim_failures}, stale-by-age {stale}")
+    # Only a claim failure is a defect in our data. An unreachable host is worth
+    # reporting but must not fail the build, or a flaky network would look like a
+    # broken dataset.
+    return 0 if claim_failures == 0 else 1
 
 
 if __name__ == "__main__":

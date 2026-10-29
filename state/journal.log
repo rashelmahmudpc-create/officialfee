@@ -65,3 +65,15 @@
 2026-10-29T04:08:14Z  tests: ok
 2026-10-29T04:08:14Z  queue: queue: 94 urls, probed: 75, pending: 19
 2026-10-29T04:08:14Z  cycle 1 done in 93s; 360s rest, 598m left
+2026-10-29T04:11:29Z  === loop start: 10h, cycle budget 6m ===
+2026-10-29T04:11:29Z  --- cycle 1 ---
+2026-10-29T04:11:55Z  discover: added 0 new candidate URLs
+2026-10-29T04:12:28Z  probe:   candidate          200  12 hits  https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/transition-binders/minister-2019/fees.html   candidate          200  12 hits  https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/transition-binders/minister-2021/fees-revenues-reporting.html   candidate          200  6 hits  https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/committees/march-12-2020/citizenship-fees.html 
+2026-10-29T04:12:36Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T04:12:36Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T04:12:48Z  verify: verified 16, failed 8 (of which stale-by-age 0)
+2026-10-29T04:12:48Z  WARNING: some sources failed verification this cycle - see above
+2026-10-29T04:12:48Z  build: built 16 indexable pages, 8 hidden (draft or stale)
+2026-10-29T04:12:48Z  tests: ok
+2026-10-29T04:12:48Z  queue: queue: 94 urls, probed: 94, pending: 0
+2026-10-29T04:12:48Z  cycle 1 done in 79s; 360s rest, 598m left

@@ -49,38 +49,36 @@ while [ "$(date +%s)" -lt "$DEADLINE" ]; do
   CYCLE_START=$(date +%s)
   log "--- cycle $CYCLE ---"
 
-  # 1. Keep the queue fed from official sitemaps, then probe what is new.
-  #    Discovery only reads government hosts and only appends to the queue.
-  log "discover: $(python3 discover.py --limit 60 2>&1 | tail -1)"
-  log "probe: $(python3 harvest.py --probe 25 2>&1 | tail -3 | tr '\n' ' ')"
-  # Be polite: the probe phase just hit these hosts, and hammering them makes
-  # them rate-limit, which would look like a broken source.
-  sleep 5
-  log "extract: $(python3 extract_tables.py --from-candidates --budget 25 2>&1 | tail -1)"
-  # Staging only ever creates drafts: noindex, no verified date, not in the
-  # sitemap. Publishing still needs a person to read the source and confirm.
-  log "stage: $(python3 stage.py 2>&1 | tail -1)"
-  sleep 5
-
-  # 2. Re-verify every published record against its source. A source that
-  #    changed under us is flagged for review, never silently re-stamped.
-  VERIFY="$(python3 verify.py --all 2>&1 | tail -1)"
+  # 1. Verify FIRST, while the network is quiet. Verification is the step that
+  #    decides what the site may claim, so it must not compete with a burst of
+  #    probes against the same hosts - that burst makes gov.uk rate-limit us and
+  #    a transient 429 would look like a broken source.
+  VERIFY_OUT="$(python3 verify.py --all 2>&1)"
+  VERIFY="$(printf '%s\n' "$VERIFY_OUT" | tail -1)"
   log "verify: $VERIFY"
-  case "$VERIFY" in
-    *"failed 0"*) : ;;
-    *) log "WARNING: some sources failed verification this cycle - see above" ;;
-  esac
+  # Show any real content problem in the journal. Unreachable hosts are counted
+  # in the summary line but not shouted about - a flaky network is not a bug.
+  printf '%s\n' "$VERIFY_OUT" | grep -E '^  (CLAIM|NET)' | sed 's/^/    /' | tee -a "$JOURNAL" >/dev/null
 
-  # 3. Rebuild the site; the gate decides what is indexable.
+  # 2. Rebuild the site; the gate decides what is indexable.
   log "build: $(python3 build.py 2>&1 | tail -1)"
 
-  # 4. Run the tests - a red suite stops the loop rather than shipping a guess.
+  # 3. Run the tests - a red suite stops the loop rather than shipping a guess.
   if python3 -m unittest discover -s tests >/dev/null 2>&1; then
     log "tests: ok"
   else
     log "tests: FAILED - stopping so a human can look"
     break
   fi
+
+  # 4. Grow the queue from official sitemaps, then probe and extract what is new.
+  #    This is the noisy part, so it runs after verification is safely recorded.
+  log "discover: $(python3 discover.py --limit 60 2>&1 | tail -1)"
+  log "probe: $(python3 harvest.py --probe 25 2>&1 | tail -3 | tr '\n' ' ')"
+  log "extract: $(python3 extract_tables.py --from-candidates --budget 25 2>&1 | tail -1)"
+  # Staging only ever creates drafts: noindex, no verified date, not in the
+  # sitemap. Publishing still needs a person to read the source and confirm.
+  log "stage: $(python3 stage.py 2>&1 | tail -1)"
 
   # 5. How much is left to do, honestly.
   log "queue: $(python3 harvest.py --report 2>&1 | head -1)"

@@ -55,12 +55,36 @@
     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/fee-exemption-minor-child-protection.html",
     "verdict": "reachable-no-fees"
   },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/fees-permits-victims-family-violence.html": {
+    "bytes": 26807,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/fees-permits-victims-family-violence.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/fees-permits-victims-human-trafficking.html": {
+    "bytes": 27116,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/fees-permits-victims-human-trafficking.html",
+    "verdict": "reachable-no-fees"
+  },
   "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/indigenous-fee-exemption.html": {
     "bytes": 36764,
     "fee_like_hits": [],
     "http_status": 200,
     "last_probe": "2026-10-29",
     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/indigenous-fee-exemption.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/pr-minor-child-protection-fees-2.html": {
+    "bytes": 25059,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/pr-minor-child-protection-fees-2.html",
     "verdict": "reachable-no-fees"
   },
   "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/pr-minor-child-protection-fees.html": {
@@ -126,6 +150,252 @@
     "last_probe": "2026-10-29",
     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/remissions-policy-service-fees-act/temporary-resident-permit-remission-policy.html",
     "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/fees-report.html": {
+    "bytes": 20677,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/fees-report.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/fees-report/2017-2018.html": {
+    "bytes": 116966,
+    "fee_like_hits": [
+      "$1,005",
+      "$25"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/fees-report/2017-2018.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/fees-report/2018-2019.html": {
+    "bytes": 143079,
+    "fee_like_hits": [
+      "$1,000",
+      "$100",
+      "$104",
+      "$156",
+      "$165",
+      "$200",
+      "$235",
+      "$400"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/fees-report/2018-2019.html",
+    "verdict": "candidate"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/fees-report/2019-2020.html": {
+    "bytes": 122724,
+    "fee_like_hits": [
+      "$100",
+      "$104",
+      "$151",
+      "$156",
+      "$165",
+      "$235",
+      "$51"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/fees-report/2019-2020.html",
+    "verdict": "candidate"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/fees-report/2020-2021.html": {
+    "bytes": 137575,
+    "fee_like_hits": [
+      "$1,000",
+      "$100",
+      "$107",
+      "$135",
+      "$141",
+      "$151",
+      "$161",
+      "$165",
+      "$200",
+      "$235",
+      "$30",
+      "$400"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/fees-report/2020-2021.html",
+    "verdict": "candidate"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/fees-report/2021-2022.html": {
+    "bytes": 142574,
+    "fee_like_hits": [
+      "$100",
+      "$114",
+      "$135",
+      "$141",
+      "$151",
+      "$165",
+      "$172",
+      "$235",
+      "$30",
+      "$51",
+      "$57",
+      "$95"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/fees-report/2021-2022.html",
+    "verdict": "candidate"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/fees-report/2022-2023.html": {
+    "bytes": 161656,
+    "fee_like_hits": [
+      "$100",
+      "$119",
+      "$151",
+      "$30",
+      "$4,374,375",
+      "$51"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/fees-report/2022-2023.html",
+    "verdict": "candidate"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/fees-report/2023-2024.html": {
+    "bytes": 156358,
+    "fee_like_hits": [
+      "$100",
+      "$119",
+      "$151",
+      "$30",
+      "$51"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/fees-report/2023-2024.html",
+    "verdict": "candidate"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/fees-report/2024-2025.html": {
+    "bytes": 182888,
+    "fee_like_hits": [
+      "$1,148",
+      "$1,199",
+      "$1,231",
+      "$1,252",
+      "$1,625",
+      "$1,810",
+      "$1,895",
+      "$100",
+      "$119",
+      "$123",
+      "$125",
+      "$151"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/fees-report/2024-2025.html",
+    "verdict": "candidate"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/reports-statistics/audits/budgeting-forecasting-allocation-costs-passport-revolving-fund.html": {
+    "bytes": 49534,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/reports-statistics/audits/budgeting-forecasting-allocation-costs-passport-revolving-fund.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/reports-statistics/audits/passport-program-compliance-user-fees-act.html": {
+    "bytes": 60051,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/reports-statistics/audits/passport-program-compliance-user-fees-act.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/reports-statistics/research/housing-experiences-new-canadians-insights-longitudinal-survey-immigrants-canada-lsic/cost.html": {
+    "bytes": 190672,
+    "fee_like_hits": [
+      "$10,022,",
+      "$10,742",
+      "$114",
+      "$150,",
+      "$16",
+      "$17,928",
+      "$170",
+      "$18,516",
+      "$200,000",
+      "$2002",
+      "$330",
+      "$360"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/reports-statistics/research/housing-experiences-new-canadians-insights-longitudinal-survey-immigrants-canada-lsic/cost.html",
+    "verdict": "candidate"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/reports-statistics/research/immigration-housing-prices-municipalities-canada.html": {
+    "bytes": 207678,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/reports-statistics/research/immigration-housing-prices-municipalities-canada.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/committees/march-12-2020/citizenship-fees.html": {
+    "bytes": 23963,
+    "fee_like_hits": [
+      "$100",
+      "$2300",
+      "$255",
+      "$300",
+      "$530",
+      "$75"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/committees/march-12-2020/citizenship-fees.html",
+    "verdict": "candidate"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/transition-binders/minister-2019/fees.html": {
+    "bytes": 31215,
+    "fee_like_hits": [
+      "$1,050",
+      "$1,333,000,000",
+      "$100",
+      "$110",
+      "$114,000,000",
+      "$135",
+      "$150",
+      "$155",
+      "$165",
+      "$225",
+      "$230",
+      "$235"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/transition-binders/minister-2019/fees.html",
+    "verdict": "candidate"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/transition-binders/minister-2021/fees-revenues-reporting.html": {
+    "bytes": 35350,
+    "fee_like_hits": [
+      "$1,575",
+      "$100",
+      "$110",
+      "$133",
+      "$135",
+      "$141",
+      "$150",
+      "$155",
+      "$156",
+      "$165",
+      "$167",
+      "$20"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/transition-binders/minister-2021/fees-revenues-reporting.html",
+    "verdict": "candidate"
   },
   "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/fees.html": {
     "bytes": 0,
