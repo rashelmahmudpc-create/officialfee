@@ -1,6 +1,7 @@
 # Candidate official fee pages - a QUEUE, not a source of truth.
-# Probed by harvest.py, table rows extracted by extract_tables.py. Nothing here
-# is published until a row is confirmed against the page by a person or an agent.
+# Hand-curated seeds. Discovery writes to state/discovered.txt instead, so this
+# list never gets polluted by a loose URL filter.
+# Nothing here is published until a row is confirmed against the page.
 # --- verified seeds (already published) ---
 https://www.gov.uk/government/publications/visa-regulations-revised-table/home-office-immigration-and-nationality-fees-8-october-2026
 https://www.gov.uk/standard-visitor-visa
@@ -14,7 +15,6 @@ https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/
 https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf
 # --- next candidates to read ---
 https://www.gov.uk/government/publications/passport-fees
-https://www.gov.uk/government/publications/immigration-health-surcharge
 https://www.gov.uk/apply-citizenship-indefinite-leave-to-remain
 https://www.gov.uk/register-as-british-citizen
 https://www.gov.uk/renew-adult-passport
@@ -36,7 +36,6 @@ https://immi.homeaffairs.gov.au/visas/getting-a-visa/fees-and-charges/current-vi
 https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas
 https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
 https://www.canada.ca/en/immigration-refugees-citizenship/services/application/fees.html
-https://www.canada.ca/en/immigration-refugees-citizenship/services/application/fees/study-permit.html
 https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility
 https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements
 https://www.imi.gov.my

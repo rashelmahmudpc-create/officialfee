@@ -19,7 +19,8 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-CANDIDATES = ROOT / "candidates.txt"
+SEEDS = ROOT / "candidates.txt"
+DISCOVERED = ROOT / "state" / "discovered.txt"
 UA = "OfficialFee-discoverer/1.0 (+https://officialfee.example/about)"
 TIMEOUT = 25
 
@@ -37,8 +38,12 @@ HOSTS = [
 ]
 SITEMAPS = ["/sitemap.xml", "/sitemap_index.xml", "/sitemap-index.xml"]
 # A path is interesting if it talks about a fee, a visa or a passport.
-# Money words, not "immigration" - that alone matches every news post on a site.
-WANT = re.compile(r"(fee|fees|charge|charges|price|pricing|cost|costs|surcharge)", re.I)
+# A URL is interesting only if it is BOTH in the immigration/visa domain AND about
+# money. "price" alone matches things like a drug-pricing review board; "immigration"
+# alone matches every news post. Requiring both is what keeps the queue usable.
+TOPIC = re.compile(r"(immigration|visa|passport|citizenship|residence|migration|naturali)", re.I)
+MONEY = re.compile(r"(fee|fees|charge|charges|price|pricing|cost|costs|surcharge)", re.I)
+WANT = re.compile(rf"{TOPIC.pattern}|{MONEY.pattern}", re.I)
 SKIP = re.compile(
     r"(\.(jpg|png|gif|svg|css|js|zip|mp4)$"
     r"|/(news|press|blog|tag|search|login|contact|media|notice|announcement)\b"
@@ -67,8 +72,9 @@ def main(argv=None):
     args = ap.parse_args(argv)
 
     known = set()
-    if CANDIDATES.exists():
-        known = {l.strip() for l in CANDIDATES.read_text().splitlines() if l.strip()}
+    for path in (SEEDS, DISCOVERED):
+        if path.exists():
+            known |= {l.strip() for l in path.read_text().splitlines() if l.strip()}
 
     found = []
     for host in HOSTS:
@@ -84,7 +90,7 @@ def main(argv=None):
             continue
         locs = urls_from(xml)
         # A sitemap index points at other sitemaps; open the promising ones.
-        children = [u for u in locs if u.endswith(".xml") and WANT.search(u)][:4]
+        children = [u for u in locs if u.endswith(".xml") and (TOPIC.search(u) or MONEY.search(u))][:4]
         for child in children:
             sub = fetch(child)
             locs += urls_from(sub)
@@ -94,7 +100,9 @@ def main(argv=None):
                 break
             if url in known or not url.startswith("https://"):
                 continue
-            if not WANT.search(url) or SKIP.search(url):
+            if not (TOPIC.search(url) and MONEY.search(url)):
+                continue
+            if SKIP.search(url):
                 continue
             known.add(url)
             found.append(url)
@@ -102,7 +110,8 @@ def main(argv=None):
         print(f"  {host_new:>4} new  {host}")
 
     if found:
-        with CANDIDATES.open("a", encoding="utf-8") as fh:
+        DISCOVERED.parent.mkdir(parents=True, exist_ok=True)
+        with DISCOVERED.open("a", encoding="utf-8") as fh:
             for url in found:
                 fh.write(url + "\n")
     print(f"added {len(found)} new candidate URLs")

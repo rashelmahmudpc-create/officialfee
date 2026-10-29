@@ -30,3 +30,7 @@
 2026-10-29T03:53:14Z  === loop start: 10h, cycle budget 20m ===
 2026-10-29T03:53:14Z  --- cycle 1 ---
 2026-10-29T03:53:14Z  probe: queue empty - nothing new to probe 
+2026-10-29T03:53:59Z  === loop start: 10h, cycle budget 20m ===
+2026-10-29T03:53:59Z  --- cycle 1 ---
+2026-10-29T03:54:04Z  discover: added 60 new candidate URLs
+2026-10-29T03:55:05Z  probe:   reachable-no-fees  200  1 hits  https://www.canada.ca/en/patented-medicine-prices-review/corporate/transparency/quarterly-financial-reports/september-2025.html   reachable-no-fees  200  1 hits  https://www.canada.ca/en/patented-medicine-prices-review/corporate/transparency/quarterly-financial-reports/december-2025.html   reachable-no-fees  200  2 hits  https://www.canada.ca/en/patented-medicine-prices-review/corporate/transparency/quarterly-financial-reports/june-2026.html 

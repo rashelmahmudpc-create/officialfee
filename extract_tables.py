@@ -68,10 +68,11 @@ def main(argv=None):
 
     urls = list(args.urls)
     if args.from_candidates:
-        cand = ROOT / "candidates.txt"
-        if cand.exists():
-            urls += [l.strip() for l in cand.read_text().splitlines()
-                     if l.strip() and not l.startswith("#")]
+        for name in ("candidates.txt", "state/discovered.txt"):
+            cand = ROOT / name
+            if cand.exists():
+                urls += [l.strip() for l in cand.read_text().splitlines()
+                         if l.strip() and not l.startswith("#")]
 
     state = json.loads(STATE.read_text(encoding="utf-8")) if STATE.exists() else {}
     today = dt.date.today().isoformat()

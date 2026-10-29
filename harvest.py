@@ -23,7 +23,8 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-CANDIDATES = ROOT / "candidates.txt"
+SEED_LIST = ROOT / "candidates.txt"
+DISCOVERED_LIST = ROOT / "state" / "discovered.txt"
 STATE = ROOT / "state" / "candidates.json"
 UA = "OfficialFee-harvester/1.0 (+https://officialfee.example/about)"
 TIMEOUT = 20
@@ -81,10 +82,17 @@ def probe(url, state, today):
 
 
 def candidates():
-    if not CANDIDATES.exists():
-        return []
-    return [l.strip() for l in CANDIDATES.read_text().splitlines()
-            if l.strip() and not l.startswith("#")]
+    """Curated seeds plus whatever discovery queued, de-duplicated in order."""
+    seen, out = set(), []
+    for path in (SEED_LIST, DISCOVERED_LIST):
+        if not path.exists():
+            continue
+        for line in path.read_text().splitlines():
+            url = line.strip()
+            if url and not url.startswith("#") and url not in seen:
+                seen.add(url)
+                out.append(url)
+    return out
 
 
 def main(argv=None):
