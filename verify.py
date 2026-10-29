@@ -39,6 +39,27 @@ TIMEOUT = 25
 # it is a constant here rather than a magic number at the call site.
 READ_CAP = 2_000_000
 
+# The stored hash is taken over the *visible text* of the page, not the raw
+# bytes. gov.uk (and others) put a fresh csrf-token, csp-nonce and randomised
+# element ids in every response, so a raw-byte hash flips on every fetch and
+# every record is reported as "source content changed". That was a real bug: it
+# hid a page whose fee never moved behind a permanent "needs human review".
+# The scheme is recorded alongside the hash so the switch from raw bytes to text
+# is a one-time, silent migration rather than a false alarm on every record.
+HASH_SCHEME = "text-v1"
+
+
+def content_digest(body):
+    """Hash the page's visible text, ignoring per-request tokens and markup.
+
+    Hashing raw bytes made every gov.uk page look changed on every fetch,
+    because each response carries a new csrf-token, csp-nonce and randomised
+    ids. Hashing the normalised text (the same text the claim patterns read)
+    means the digest moves only when the words a visitor would read move.
+    """
+    text = page_text(body.decode("utf-8", "ignore"))
+    return hashlib.sha256(text.encode("utf-8")).hexdigest()
+
 
 def _fetch_once(url, timeout):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
@@ -47,7 +68,7 @@ def _fetch_once(url, timeout):
             # Some official fee pages are large; truncating too early cut the
             # fees section off entirely and looked like a changed page.
             body = resp.read(READ_CAP)
-            return resp.status, hashlib.sha256(body).hexdigest(), len(body), body
+            return resp.status, content_digest(body), len(body), body
     except urllib.error.HTTPError as exc:
         return exc.code, None, 0, b""
     except Exception:  # DNS, TLS, timeout - all the same verdict: unproven
@@ -113,7 +134,12 @@ def verify_record(record, state, today, dry_run=False):
         (check_claims(record, body.decode("utf-8", "ignore")) if ok else (False, "source unreachable"))
     ok = ok and claims_ok
     previous = state.get(record.slug, {})
-    changed = bool(digest and previous.get("hash") and previous["hash"] != digest)
+    # A stored hash from the old raw-byte scheme is not comparable with the new
+    # text hash: the page did not change, only how we measure it. So an
+    # incomparable baseline resets silently instead of raising a false review.
+    comparable = previous.get("hash_scheme") == HASH_SCHEME
+    changed = bool(comparable and digest and previous.get("hash")
+                   and previous["hash"] != digest)
 
     result = {
         "slug": record.slug,
@@ -121,6 +147,7 @@ def verify_record(record, state, today, dry_run=False):
         "checked_on": today.isoformat(),
         "http_status": status,
         "hash": digest,
+        "hash_scheme": HASH_SCHEME,
         "bytes": size,
         "ok": ok,
         "claims_ok": claims_ok,

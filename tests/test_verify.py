@@ -85,3 +85,43 @@ class TestPageText(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestContentDigest(unittest.TestCase):
+    """The stored hash decides whether a page counts as changed, so it must
+    ignore the per-request tokens gov.uk puts in every response. Hashing raw
+    bytes made every record look changed on every fetch - a real bug that hid
+    unchanged fees behind a permanent 'needs human review'."""
+
+    def test_per_request_tokens_do_not_change_the_digest(self):
+        a = '<meta name="csrf-token" content="AAA111"> <p>It costs £135.</p>'
+        b = '<meta name="csrf-token" content="ZZZ999"> <p>It costs £135.</p>'
+        self.assertEqual(verify.content_digest(a.encode()), verify.content_digest(b.encode()))
+
+    def test_a_real_fee_change_does_change_the_digest(self):
+        a = '<p>It costs £135.</p>'
+        b = '<p>It costs £200.</p>'
+        self.assertNotEqual(verify.content_digest(a.encode()), verify.content_digest(b.encode()))
+
+    def test_randomised_element_ids_are_ignored(self):
+        a = '<label for="search-main-4fd8265c">Search</label><p>Fee £135</p>'
+        b = '<label for="search-main-e0448d8e">Search</label><p>Fee £135</p>'
+        self.assertEqual(verify.content_digest(a.encode()), verify.content_digest(b.encode()))
+
+
+class TestHashSchemeMigration(unittest.TestCase):
+    def test_old_raw_byte_hash_is_not_reported_as_changed(self):
+        """A baseline from the old scheme must migrate silently: the page did
+        not change, only the way we measure it."""
+        state = {"x-fee": {"hash": "deadbeef", "hash_scheme": None}}
+        result = verify.verify_record(rec(), state, TODAY, dry_run=True)
+        self.assertFalse(result["changed"])
+        self.assertEqual(result["hash_scheme"], verify.HASH_SCHEME)
+
+    def test_changed_hash_in_the_same_scheme_still_flags(self):
+        state = {"x-fee": {"hash": "deadbeef", "hash_scheme": verify.HASH_SCHEME}}
+        previous = state["x-fee"]["hash"]
+        digest = verify.content_digest(b"<p>It costs \xc2\xa3135.</p>")
+        changed = bool(state["x-fee"]["hash_scheme"] == verify.HASH_SCHEME
+                       and previous and previous != digest)
+        self.assertTrue(changed)

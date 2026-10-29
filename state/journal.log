@@ -117,3 +117,38 @@
 2026-10-29T04:26:42Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
 2026-10-29T04:26:42Z  queue: queue: 107 urls, probed: 107, pending: 0
 2026-10-29T04:26:42Z  cycle 1 done in 127s; 360s rest, 597m left
+2026-10-29T04:32:42Z  --- cycle 2 ---
+2026-10-29T04:32:47Z  verify: verified 14, unreachable 8, claims-failed 0, stale-by-age 0
+      NET   uk-standard-visitor-visa-fee       source content changed - needs human review
+      NET   uk-student-visa-fee                source content changed - needs human review
+      NET   uk-skilled-worker-visa-fee         source content changed - needs human review
+      NET   uk-graduate-visa-fee               source content changed - needs human review
+      NET   uk-family-visa-fee                 source content changed - needs human review
+      NET   uk-immigration-health-surcharge    source content changed - needs human review
+      NET   uk-passport-fee                    source content changed - needs human review
+      NET   ireland-visa-fee                   source content changed - needs human review
+2026-10-29T04:32:47Z  build: built 14 indexable pages, 10 hidden (draft or stale)
+2026-10-29T04:32:47Z  tests: ok
+2026-10-29T04:34:43Z  discover: added 0 new candidate URLs
+2026-10-29T04:34:43Z  probe: queue empty - nothing new to probe 
+2026-10-29T04:34:46Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T04:34:46Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T04:34:46Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T04:34:46Z  cycle 2 done in 124s; 360s rest, 589m left
+2026-10-29T04:40:46Z  --- cycle 3 ---
+2026-10-29T04:40:52Z  verify: verified 15, unreachable 7, claims-failed 0, stale-by-age 0
+      NET   uk-standard-visitor-visa-fee       source content changed - needs human review
+      NET   uk-student-visa-fee                source content changed - needs human review
+      NET   uk-skilled-worker-visa-fee         source content changed - needs human review
+      NET   uk-graduate-visa-fee               source content changed - needs human review
+      NET   uk-family-visa-fee                 source content changed - needs human review
+      NET   uk-immigration-health-surcharge    source content changed - needs human review
+      NET   uk-passport-fee                    source content changed - needs human review
+2026-10-29T04:40:52Z  build: built 15 indexable pages, 9 hidden (draft or stale)
+2026-10-29T04:40:53Z  tests: ok
+2026-10-29T04:42:47Z  discover: added 0 new candidate URLs
+2026-10-29T04:42:47Z  probe: queue empty - nothing new to probe 
+2026-10-29T04:42:49Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T04:42:49Z  stage: staged 0 draft records (noindex, not in sitemap, no verified date)
+2026-10-29T04:42:49Z  queue: queue: 107 urls, probed: 107, pending: 0
+2026-10-29T04:42:49Z  cycle 3 done in 123s; 360s rest, 581m left
