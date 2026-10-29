@@ -12,7 +12,7 @@
   },
   "uk-family-visa-fee": {
     "bytes": 149714,
-    "changed": true,
+    "changed": false,
     "checked_on": "2026-10-29",
     "hash": "c8882a1460ae8a50be308ad757b5131d55e7f13ab1000de3c03075f27fab0004",
     "http_status": 200,
@@ -23,7 +23,7 @@
   },
   "uk-graduate-visa-fee": {
     "bytes": 105931,
-    "changed": true,
+    "changed": false,
     "checked_on": "2026-10-29",
     "hash": "533a54b45cf0374a0b893de85cc9e5ddb3e0b03ff0b86947ed6485ab5c3035e3",
     "http_status": 200,
@@ -34,7 +34,7 @@
   },
   "uk-immigration-health-surcharge": {
     "bytes": 72929,
-    "changed": true,
+    "changed": false,
     "checked_on": "2026-10-29",
     "hash": "b4a2d48675a33ce1c3c95cff4806256b4d9c8837b1412abcbb7709cd26fd67b2",
     "http_status": 200,
@@ -45,7 +45,7 @@
   },
   "uk-passport-fee": {
     "bytes": 86846,
-    "changed": true,
+    "changed": false,
     "checked_on": "2026-10-29",
     "hash": "f6d061cdf8989e502d5eb5269ca77ae481d70a730e1a7ec3030f08fd10f22d97",
     "http_status": 200,
@@ -56,7 +56,7 @@
   },
   "uk-skilled-worker-visa-fee": {
     "bytes": 196465,
-    "changed": true,
+    "changed": false,
     "checked_on": "2026-10-29",
     "hash": "0fb53c4915417d85493f9046e165444cb12ad4c05463b93d9b598b6de714cca0",
     "http_status": 200,
@@ -67,7 +67,7 @@
   },
   "uk-standard-visitor-visa-fee": {
     "bytes": 196465,
-    "changed": true,
+    "changed": false,
     "checked_on": "2026-10-29",
     "hash": "0fb53c4915417d85493f9046e165444cb12ad4c05463b93d9b598b6de714cca0",
     "http_status": 200,
@@ -78,7 +78,7 @@
   },
   "uk-student-visa-fee": {
     "bytes": 196465,
-    "changed": true,
+    "changed": false,
     "checked_on": "2026-10-29",
     "hash": "0fb53c4915417d85493f9046e165444cb12ad4c05463b93d9b598b6de714cca0",
     "http_status": 200,

@@ -32,7 +32,7 @@ echo $$ > "$PIDFILE"
 trap 'rm -f "$PIDFILE"' EXIT
 
 HOURS="${1:-10}"
-BUDGET_MIN="${BUDGET_MIN:-20}"
+BUDGET_MIN="${BUDGET_MIN:-6}"
 # Whole seconds, so a fractional hour like 0.5 works for testing.
 SECONDS_TOTAL=$(python3 -c "print(int(float('${HOURS}') * 3600))")
 DEADLINE=$(( $(date +%s) + SECONDS_TOTAL ))
@@ -46,6 +46,7 @@ log "=== loop start: ${HOURS}h, cycle budget ${BUDGET_MIN}m ==="
 
 while [ "$(date +%s)" -lt "$DEADLINE" ]; do
   CYCLE=$((CYCLE + 1))
+  CYCLE_START=$(date +%s)
   log "--- cycle $CYCLE ---"
 
   # 1. Keep the queue fed from official sitemaps, then probe what is new.
@@ -86,7 +87,7 @@ while [ "$(date +%s)" -lt "$DEADLINE" ]; do
   SLEEP=$(( BUDGET_MIN * 60 ))
   [ "$SLEEP" -lt 1 ] && SLEEP=1
   [ "$SLEEP" -gt "$REMAIN" ] && SLEEP=$REMAIN
-  log "sleeping ${SLEEP}s (cycle $CYCLE done, $((REMAIN/60))m left)"
+  log "cycle $CYCLE done in $(( $(date +%s) - CYCLE_START ))s; ${SLEEP}s rest, $((REMAIN/60))m left"
   sleep "$SLEEP"
 done
 

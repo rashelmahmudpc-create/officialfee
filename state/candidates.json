@@ -1,4 +1,132 @@
 {
+  "https://immi.homeaffairs.gov.au/visas/getting-a-visa/fees-and-charges/current-visa-pricing": {
+    "bytes": 0,
+    "fee_like_hits": [],
+    "http_status": 403,
+    "last_probe": "2026-10-29",
+    "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/fees-and-charges/current-visa-pricing",
+    "verdict": "unreachable"
+  },
+  "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500": {
+    "bytes": 0,
+    "fee_like_hits": [],
+    "http_status": 403,
+    "last_probe": "2026-10-29",
+    "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+    "verdict": "unreachable"
+  },
+  "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas": {
+    "bytes": 0,
+    "fee_like_hits": [],
+    "http_status": 403,
+    "last_probe": "2026-10-29",
+    "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas",
+    "verdict": "unreachable"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/fees.html": {
+    "bytes": 0,
+    "fee_like_hits": [],
+    "http_status": 404,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/fees.html",
+    "verdict": "unreachable"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/medical-police/police-certificates/how/costa-rica.html": {
+    "bytes": 25996,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/medical-police/police-certificates/how/costa-rica.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports-abroad/renew-abroad/submit-form-fees.html": {
+    "bytes": 36459,
+    "fee_like_hits": [
+      "$45"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports-abroad/renew-abroad/submit-form-fees.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports-usa/new-adult-passport-usa/submit-form-fees.html": {
+    "bytes": 34653,
+    "fee_like_hits": [
+      "$45"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports-usa/new-adult-passport-usa/submit-form-fees.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports-usa/renew-us/submit-form-fees.html": {
+    "bytes": 35606,
+    "fee_like_hits": [
+      "$45"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports-usa/renew-us/submit-form-fees.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/new-adult-passport/apply-submit-fees.html": {
+    "bytes": 73149,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/new-adult-passport/apply-submit-fees.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadians/celebrate-being-canadian/teachers-corner/feedback.html": {
+    "bytes": 20747,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadians/celebrate-being-canadian/teachers-corner/feedback.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadians/international-experience-canada/work-travel-costa-rica.html": {
+    "bytes": 37189,
+    "fee_like_hits": [
+      "$200"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadians/international-experience-canada/work-travel-costa-rica.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/apply-permanent-residence/fees.html": {
+    "bytes": 43697,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/apply-permanent-residence/fees.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship/fees-permits-victims.html": {
+    "bytes": 51947,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship/fees-permits-victims.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/fee-exemptions.html": {
+    "bytes": 28497,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/fee-exemptions.html",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.gdrfad.gov.ae/en": {
+    "bytes": 253891,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.gdrfad.gov.ae/en",
+    "verdict": "reachable-no-fees"
+  },
   "https://www.gov.uk/apply-citizenship-indefinite-leave-to-remain": {
     "bytes": 94212,
     "fee_like_hits": [
@@ -145,6 +273,54 @@
     "url": "https://www.gov.uk/uk-family-visa",
     "verdict": "candidate"
   },
+  "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements": {
+    "bytes": 37256,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.imi.gov.my": {
+    "bytes": 149946,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.imi.gov.my",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.irishimmigration.ie/at-the-border/bmu-customer-service-feedback/": {
+    "bytes": 400000,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.irishimmigration.ie/at-the-border/bmu-customer-service-feedback/",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-options/a-fee-paying-private-primary-or-secondary-school/": {
+    "bytes": 399996,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-options/a-fee-paying-private-primary-or-secondary-school/",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-options/a-fee-paying-private-primary-or-secondary-school/information-on-student-finances/": {
+    "bytes": 399996,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-options/a-fee-paying-private-primary-or-secondary-school/information-on-student-finances/",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-options/a-fee-paying-private-primary-or-secondary-school/private-medical-insurance/": {
+    "bytes": 399996,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-options/a-fee-paying-private-primary-or-secondary-school/private-medical-insurance/",
+    "verdict": "reachable-no-fees"
+  },
   "https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/": {
     "bytes": 400000,
     "fee_like_hits": [],
@@ -152,6 +328,27 @@
     "last_probe": "2026-10-29",
     "url": "https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/",
     "verdict": "reachable-no-fees"
+  },
+  "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility": {
+    "bytes": 101767,
+    "fee_like_hits": [
+      "$10,000",
+      "$10,005",
+      "$10,018",
+      "$10,205",
+      "$10,236",
+      "$10,250",
+      "$10,273",
+      "$10,468",
+      "$10,482",
+      "$10,500",
+      "$10,527",
+      "$10,700"
+    ],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility",
+    "verdict": "candidate"
   },
   "https://www.uscis.gov/i-129": {
     "bytes": 109971,
@@ -205,6 +402,14 @@
     "url": "https://www.uscis.gov/i-539",
     "verdict": "reachable-no-fees"
   },
+  "https://www.uscis.gov/i-601": {
+    "bytes": 92949,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/i-601",
+    "verdict": "reachable-no-fees"
+  },
   "https://www.uscis.gov/i-751": {
     "bytes": 101185,
     "fee_like_hits": [],
@@ -250,6 +455,22 @@
     "last_probe": "2026-10-29",
     "url": "https://www.uscis.gov/n-400",
     "verdict": "candidate"
+  },
+  "https://www.uscis.gov/n-565": {
+    "bytes": 91933,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/n-565",
+    "verdict": "reachable-no-fees"
+  },
+  "https://www.uscis.gov/n-600": {
+    "bytes": 97581,
+    "fee_like_hits": [],
+    "http_status": 200,
+    "last_probe": "2026-10-29",
+    "url": "https://www.uscis.gov/n-600",
+    "verdict": "reachable-no-fees"
   },
   "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf": {
     "bytes": 249002,

@@ -45,3 +45,13 @@
 2026-10-29T03:59:24Z  tests: ok
 2026-10-29T03:59:24Z  queue: queue: 94 urls, probed: 25, pending: 69
 2026-10-29T03:59:24Z  sleeping 1200s (cycle 1 done, 597m left)
+2026-10-29T04:02:45Z  === loop start: 10h, cycle budget 20m ===
+2026-10-29T04:02:45Z  --- cycle 1 ---
+2026-10-29T04:03:17Z  discover: added 0 new candidate URLs
+2026-10-29T04:03:55Z  probe:   reachable-no-fees  200  1 hits  https://www.canada.ca/en/immigration-refugees-citizenship/services/canadians/international-experience-canada/work-travel-costa-rica.html   reachable-no-fees  200  0 hits  https://www.canada.ca/en/immigration-refugees-citizenship/services/canadians/celebrate-being-canadian/teachers-corner/feedback.html   reachable-no-fees  200  0 hits  https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/new-adult-passport/apply-submit-fees.html 
+2026-10-29T04:04:02Z  extract: queued 0 candidate rows for review in state/extracted.json
+2026-10-29T04:04:09Z  verify: verified 22, failed 0 (of which stale-by-age 0)
+2026-10-29T04:04:09Z  build: built 22 indexable pages, 0 hidden (draft or stale)
+2026-10-29T04:04:09Z  tests: ok
+2026-10-29T04:04:10Z  queue: queue: 94 urls, probed: 50, pending: 44
+2026-10-29T04:04:10Z  sleeping 1200s (cycle 1 done, 598m left)
